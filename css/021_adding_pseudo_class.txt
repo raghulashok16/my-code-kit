@@ -1,0 +1,92 @@
+CSS pseudo-classes are used to define the special states of an element. They can be used to style elements based on their state, position, user interaction, and more. Here is a comprehensive list of CSS pseudo-classes:
+
+# ---------------- 1. Interactive User Action Pseudo-Classes: ---------------- #
+- :hover: Applies when the user designates an element (with a pointing device), but does not activate it.
+- :active: Applies while an element is being activated (e.g., being clicked on).
+- :focus: Applies when an element has received focus (e.g., when clicked or tabbed to).
+- :focus-visible: Applies when the element matches the :focus pseudo-class and the user agent determines via heuristics that - the focus should be visibly indicated.
+- :focus-within: Applies when an element itself or any of its descendants are focused.
+- Structural Pseudo-Classes:
+- :first-child: Applies to an element that is the first child of its parent.
+- :last-child: Applies to an element that is the last child of its parent.
+- :nth-child(n): Applies to an element that is the nth child of its parent (can use formulas).
+- :nth-last-child(n): Applies to an element that is the nth child from the end of its parent (can use formulas).
+- :nth-of-type(n): Applies to an element that is the nth sibling of the same type (can use formulas).
+- :nth-last-of-type(n): Applies to an element that is the nth sibling of the same type from the end (can use formulas).
+- :only-child: Applies to an element that is the only child of its parent.
+- :only-of-type: Applies to an element that is the only sibling of its type.
+- :first-of-type: Applies to an element that is the first sibling of its type.
+- :last-of-type: Applies to an element that is the last sibling of its type.
+- :root: Applies to the document's root element (usually <html>).
+
+# -------------------------- 2. Form Pseudo-Classes: ------------------------- #
+- :enabled: Applies to form elements that are enabled.
+- :disabled: Applies to form elements that are disabled.
+- :checked: Applies to radio buttons, checkboxes, and option elements that are checked or selected.
+- :indeterminate: Applies to checkboxes that are in an indeterminate state.
+- :default: Applies to form elements that are the default among a set of similar elements.
+- :valid: Applies to form elements with valid values.
+- :invalid: Applies to form elements with invalid values.
+- :in-range: Applies to form elements with values within a specified range.
+- :out-of-range: Applies to form elements with values outside a specified range.
+- :required: Applies to form elements with the required attribute.
+- :optional: Applies to form elements without the required attribute.
+- :placeholder-shown: Applies to input elements displaying placeholder text.
+- :read-only: Applies to elements with the readonly attribute.
+- :read-write: Applies to elements that are user-editable.
+
+# --------------------------- 3. UI Element States: -------------------------- #
+- :empty: Applies to elements that have no children (including text nodes).
+- :target: Applies to the target element of a URL fragment.
+- :lang(language): Applies to elements with a matching language attribute.
+- :not(selector): Applies to elements that do not match the specified selector.
+- :dir(direction): Applies based on the directionality of the element (e.g., :dir(ltr), :dir(rtl)).
+
+# -------------------------------- 4. Others: -------------------------------- #
+- :link: Applies to unvisited links.
+- :visited: Applies to visited links.
+- :any-link: Applies to all links, whether visited or unvisited.
+- :scope: Represents elements that are a reference point for selectors.
+- :has(selector): Applies to elements if they contain at least one element matching the selector (part of CSS Selectors Level 4).
+:is(selector): Applies to elements that match any of the selectors in the list (part of CSS Selectors Level 4).
+:where(selector): Similar to :is(), but with specificity of 0 (part of CSS Selectors Level 4).
+:nth-col(n): Applies to table columns (part of CSS Table Level 3).
+:nth-last-col(n): Applies to table columns from the end (part of CSS Table Level 3).
+
+# ------------------------------- Example Usage ------------------------------ #
+CSS
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/* Change color of any unvisited link */
+a:link {
+    color: blue;
+}
+
+/* Change color of any visited link */
+a:visited {
+    color: purple;
+}
+
+/* Change color of any hovered link */
+a:hover {
+    color: red;
+}
+
+/* Change color of any active link (when clicked) */
+a:active {
+    color: green;
+}
+
+/* Style the first child of any element */
+p:first-child {
+    font-weight: bold;
+}
+
+/* Style a specific form element when it is focused */
+input:focus {
+    border-color: blue;
+}
+//////////////////////////////////////////////
+
+# ---------------------------------- Summary --------------------------------- #
+1. Pseudo-classes in CSS provide a powerful way to apply styles based on the state or position of elements, enabling more dynamic and interactive designs.
+2. They are widely used for enhancing user interactions, form control styling, and complex structural styling.
