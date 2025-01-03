@@ -27,21 +27,21 @@ Here is a detailed look into the history of TypeScript:
 1. ECMAScript Compatibility: TypeScript has continually evolved to stay aligned with the latest ECMAScript standards. This means that developers can use modern JavaScript features (like async/await, modules, and destructuring) in TypeScript, even if they are not yet supported in all JavaScript environments.
 
 # ------------------------ 7. Tooling and IDE Support ------------------------ #
-Visual Studio Code: Microsoft developed Visual Studio Code, a free and open-source code editor, which has excellent support for TypeScript. Features like IntelliSense, debugging, and integrated Git support made VS Code a popular choice among TypeScript developers.
-Other IDEs: TypeScript also has strong support in other popular development environments, such as WebStorm, Sublime Text, and Atom, thanks to the availability of plugins and extensions.
+1. Visual Studio Code: Microsoft developed Visual Studio Code, a free and open-source code editor, which has excellent support for TypeScript. Features like IntelliSense, debugging, and integrated Git support made VS Code a popular choice among TypeScript developers.
+2. Other IDEs: TypeScript also has strong support in other popular development environments, such as WebStorm, Sublime Text, and Atom, thanks to the availability of plugins and extensions.
 
 # ------------------- 8. Corporate and Open Source Adoption ------------------ #
-Large-Scale Adoption: Many large companies and popular open-source projects adopted TypeScript for their development needs. Examples include Microsoft, Google (with Angular), Slack, Asana, and many more.
-Community Contributions: The open-source nature of TypeScript has led to significant contributions from the community, fostering a rich ecosystem of tools and libraries.
+1. Large-Scale Adoption: Many large companies and popular open-source projects adopted TypeScript for their development needs. Examples include Microsoft, Google (with Angular), Slack, Asana, and many more.
+2. Community Contributions: The open-source nature of TypeScript has led to significant contributions from the community, fostering a rich ecosystem of tools and libraries.
 
 # -------------------------- 9. Benefits and Impact -------------------------- #
-Improved Code Quality: The introduction of static typing and better tooling has led to more reliable and maintainable codebases.
-Developer Experience: TypeScript's features have significantly improved the developer experience, making it easier to write, read, and maintain complex applications.
-Large Codebases: TypeScript has proven to be particularly beneficial for large codebases, where type safety and tooling can greatly improve productivity and reduce bugs.
+1. Improved Code Quality: The introduction of static typing and better tooling has led to more reliable and maintainable codebases.
+2. Developer Experience: TypeScript's features have significantly improved the developer experience, making it easier to write, read, and maintain complex applications.
+3. Large Codebases: TypeScript has proven to be particularly beneficial for large codebases, where type safety and tooling can greatly improve productivity and reduce bugs.
 
 # --------------------------- 10. Future Prospects --------------------------- #
-Ongoing Development: TypeScript continues to be actively developed and maintained by Microsoft and the community. Regular updates and new features ensure that it remains a modern and powerful tool for JavaScript development.
-Growing Ecosystem: The ecosystem around TypeScript, including libraries, frameworks, and tools, continues to grow, making it an increasingly attractive choice for developers.
+1. Ongoing Development: TypeScript continues to be actively developed and maintained by Microsoft and the community. Regular updates and new features ensure that it remains a modern and powerful tool for JavaScript development.
+2. Growing Ecosystem: The ecosystem around TypeScript, including libraries, frameworks, and tools, continues to grow, making it an increasingly attractive choice for developers.
 
 
 Conclusion:
