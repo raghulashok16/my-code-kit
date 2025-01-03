@@ -67,6 +67,6 @@ Here is a detailed look into the history of TypeScript:
      The ecosystem around TypeScript, including libraries, frameworks, and tools, continues to grow, making it an increasingly attractive choice for developers.
 
 
-Conclusion:
+# -------------------------------- Conclusion: ------------------------------- #
 1. TypeScript has had a significant impact on the JavaScript ecosystem, providing developers with the tools they need to build large, maintainable, and robust applications.
 2. Its growth and adoption are a testament to its value, and it continues to evolve to meet the needs of modern web development.
