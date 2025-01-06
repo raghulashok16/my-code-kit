@@ -198,12 +198,25 @@ console.log(object[`full${part}`]); // object['fullname']
 //////////////////////////////////////////////
 
 
-
-NOTE: all keys are going to be stringified before stored in object, that is why we use string to access key names in Accessing object.
-eg
-
-EXAMPLE: 
+# ------------------------- adiitional advanced notes ------------------------ #
+1. all keys are going to be stringified before stored in object, that is why we use string to access key names in Accessing   object.
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 o[1] = "hello";
+o[true] = "js";
 //////////////////////////////////////////////
-- here o[1] is going to be stringified as o["1"] and the value is stored inside the object.
+here o[1], o[true] is going to be stringified as o["1"] , o["true"] and the value is stored inside the object.
+
+2. we can use bracket notation to access our own desired key.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+let key = "species";
+pet[key];   // dog
+pet.key     // undefined
+//////////////////////////////////////////////
+dot notation has some cons.
+
+3. we can use any function inside object to serve its own purpose.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+o1.sayHi = function() { return "Hi" };
+o1.sayHi();   // Hi
+//////////////////////////////////////////////
+
