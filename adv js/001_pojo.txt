@@ -188,3 +188,14 @@ console.log(proxy['nonExistent']); // default
 let part = 'name';
 console.log(object[`full${part}`]); // object['fullname']
 //////////////////////////////////////////////
+
+
+
+NOTE: all keys are going to be stringified before stored in object, that is why we use string to access key names in Accessing object.
+eg
+
+EXAMPLE: 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+o[1] = "hello";
+//////////////////////////////////////////////
+- here o[1] is going to be stringified as o["1"] and the value is stored inside the object.
