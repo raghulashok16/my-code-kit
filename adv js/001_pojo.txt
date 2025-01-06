@@ -63,6 +63,14 @@ object.method = function() { ... }
 
 20. Consistency: Using dot notation consistently can make code easier to read and maintain by keeping property access uniform across the codebase.
 
+
+
+
+
+
+
+
+
 # ------------ 20 key points about bracket notation in JavaScript: ----------- #
 
 1. Basic Syntax: Bracket notation uses square brackets ([]) to access properties of objects.
