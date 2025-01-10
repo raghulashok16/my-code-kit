@@ -2,8 +2,8 @@ Creating a React app using Vite is a great choice for faster builds and a simple
 
 
 # ------------------------------ Prerequisites: ------------------------------ #
-1. Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
-2. You can download and install them from nodejs.org.
+  1. Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
+  2. You can download and install them from nodejs.org.
 
 Steps to Create a React App Using Vite:
 
@@ -86,10 +86,10 @@ my-vite-react-app
 //////////////////////////////////////////////
 
 # ------------------------- Explanation of Key Files: ------------------------ #
-1. src/main.jsx: This is the entry point of your application. It initializes the React app.
-2. src/App.jsx: This is the main React component of your application.
-3. public/index.html: The main HTML file that is served.
-4. vite.config.js: The configuration file for Vite.
+  1. src/main.jsx: This is the entry point of your application. It initializes the React app.
+  2. src/App.jsx: This is the main React component of your application.
+  3. public/index.html: The main HTML file that is served.
+  4. vite.config.js: The configuration file for Vite.
 
 # -------------------- Example of a Basic React Component: ------------------- #
 To give you a quick start, here's an example of a simple React component you can add to your project:
@@ -122,8 +122,8 @@ export default App;
 //////////////////////////////////////////////
 
 # -------------------------------- Conclusion: ------------------------------- #
-1. With these steps, you've successfully set up a new React project using Vite.
-2. You can now start building your React application by editing the files in the src directory.
-3. Vite provides a fast and optimized development experience, making it a great choice for modern React projects.
+  1. With these steps, you've successfully set up a new React project using Vite.
+  2. You can now start building your React application by editing the files in the src directory.
+  3. Vite provides a fast and optimized development experience, making it a great choice for modern React projects.
 
 

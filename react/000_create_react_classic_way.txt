@@ -3,8 +3,8 @@ To install React in a classic way, you can use the create-react-app command-line
 Here are the steps to install and set up a new React project using create-react-app:
 
 # ------------------------------ Prerequisites: ------------------------------ #
-1. Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
-2. You can download and install them from nodejs.org.
+    1. Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
+    2. You can download and install them from nodejs.org.
 
 # -------------------------- Steps to Install React: ------------------------- #
 
@@ -59,10 +59,10 @@ my-app
 //////////////////////////////////////////////
 
 # --------------------------------- Summary: --------------------------------- #
-1. package.json: Lists the project dependencies and scripts.
-2. public/index.html: The main HTML file that is served.
-3. src/index.js: The JavaScript entry point.
-4. src/App.js: A sample React component.
+    1. package.json: Lists the project dependencies and scripts.
+    2. public/index.html: The main HTML file that is served.
+    3. src/index.js: The JavaScript entry point.
+    4. src/App.js: A sample React component.
 
 
 With these steps, you've successfully set up a new React project using the classic create-react-app method. You can now start building your React application by editing the files in the src directory.

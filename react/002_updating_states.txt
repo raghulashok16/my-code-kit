@@ -124,9 +124,9 @@ export default MultiStateExample;
 
 
 # -------------------------------- Key Points: ------------------------------- #
-1. Functional Updates: Using the functional form of setState ensures you are working with the latest state.
-2. Batching: React may batch multiple state updates for performance reasons, which makes the functional form crucial for reliable state updates.
-3. Prev State: The argument to the setter function (e.g., prevCount, prevItems) represents the current state at the time the update is applied.
+  1. Functional Updates: Using the functional form of setState ensures you are working with the latest state.
+  2. Batching: React may batch multiple state updates for performance reasons, which makes the functional form crucial for reliable state updates.
+  3. Prev State: The argument to the setter function (e.g., prevCount, prevItems) represents the current state at the time the update is applied.
 
 These examples illustrate how to reliably update state based on its current value using the useState hook in React.
 
