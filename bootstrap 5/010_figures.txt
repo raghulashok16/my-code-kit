@@ -1,0 +1,75 @@
+Bootstrap 5 provides figure classes to create responsive images with captions in your web projects. The `figure` component is useful for displaying images with associated captions in a consistent and styled manner. Here is a list of all the figure-related classes available in Bootstrap 5:
+
+# ------------------------------ Figure Classes ------------------------------ #
+
+1. `.figure`
+   - Applies the figure styling to a container element.
+   - Example:
+     <figure class="figure">
+       <!-- Image and caption go here -->
+     </figure>
+     
+
+2. `.figure-img`
+   - Adds styling to an image within a figure.
+   - Example:
+     <figure class="figure">
+       <img src="example.jpg" class="figure-img img-fluid rounded" alt="Example image">
+     </figure>
+     
+
+3. `.figure-caption`
+   - Styles the caption text within a figure.
+   - Example:
+     <figure class="figure">
+       <img src="example.jpg" class="figure-img img-fluid rounded" alt="Example image">
+       <figcaption class="figure-caption">A caption for the above image.</figcaption>
+     </figure>
+     
+
+# ------------------------------- Example Usage ------------------------------ #
+
+Here is an example demonstrating the use of the figure classes in Bootstrap 5:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Figure Classes Example</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <!-- Basic Figure -->
+    <figure class="figure">
+      <img src="example.jpg" class="figure-img img-fluid rounded" alt="Example image">
+      <figcaption class="figure-caption">A caption for the above image.</figcaption>
+    </figure>
+
+    <!-- Figure with Right Aligned Caption -->
+    <figure class="figure">
+      <img src="example.jpg" class="figure-img img-fluid rounded" alt="Example image">
+      <figcaption class="figure-caption text-end">A right-aligned caption.</figcaption>
+    </figure>
+
+    <!-- Figure with Center Aligned Caption -->
+    <figure class="figure">
+      <img src="example.jpg" class="figure-img img-fluid rounded" alt="Example image">
+      <figcaption class="figure-caption text-center">A center-aligned caption.</figcaption>
+    </figure>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# -------------------------------- Explanation ------------------------------- #
+
+1. Basic Figure: Uses the `.figure` class to create a figure element that contains an image and a caption. The `.figure-img` class is used on the image to apply figure-specific styling, and `.figure-caption` is used to style the caption text.
+2. Right Aligned Caption: Adds the `.text-end` class to the caption to align it to the right.
+3. Center Aligned Caption: Adds the `.text-center` class to the caption to align it to the center.
+
+These figure classes help you create well-styled and responsive images with captions in your Bootstrap 5 projects.
