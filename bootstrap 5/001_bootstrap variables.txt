@@ -1,0 +1,168 @@
+Bootstrap 5 provides a wide range of CSS custom properties (variables) for easy customization and theming. These variables allow you to modify colors, spacings, font sizes, and other design aspects without having to dive deep into the CSS files. Below is a list of some of the most commonly used Bootstrap variables:
+
+ # ---------------------------------- Colors ---------------------------------- #
+- `--bs-blue`
+- `--bs-indigo`
+- `--bs-purple`
+- `--bs-pink`
+- `--bs-red`
+- `--bs-orange`
+- `--bs-yellow`
+- `--bs-green`
+- `--bs-teal`
+- `--bs-cyan`
+- `--bs-white`
+- `--bs-gray`
+- `--bs-gray-dark`
+- `--bs-gray-100`
+- `--bs-gray-200`
+- `--bs-gray-300`
+- `--bs-gray-400`
+- `--bs-gray-500`
+- `--bs-gray-600`
+- `--bs-gray-700`
+- `--bs-gray-800`
+- `--bs-gray-900`
+- `--bs-primary`
+- `--bs-secondary`
+- `--bs-success`
+- `--bs-info`
+- `--bs-warning`
+- `--bs-danger`
+- `--bs-light`
+- `--bs-dark`
+
+ # -------------------------------- RGB Colors -------------------------------- #
+- `--bs-primary-rgb`
+- `--bs-secondary-rgb`
+- `--bs-success-rgb`
+- `--bs-info-rgb`
+- `--bs-warning-rgb`
+- `--bs-danger-rgb`
+- `--bs-light-rgb`
+- `--bs-dark-rgb`
+- `--bs-white-rgb`
+- `--bs-gray-100-rgb`
+- `--bs-gray-200-rgb`
+- `--bs-gray-300-rgb`
+- `--bs-gray-400-rgb`
+- `--bs-gray-500-rgb`
+- `--bs-gray-600-rgb`
+- `--bs-gray-700-rgb`
+- `--bs-gray-800-rgb`
+- `--bs-gray-900-rgb`
+
+ # ---------------------------------- Spacing --------------------------------- #
+- `--bs-spacing`
+- `--bs-spacing-0`
+- `--bs-spacing-1`
+- `--bs-spacing-2`
+- `--bs-spacing-3`
+- `--bs-spacing-4`
+- `--bs-spacing-5`
+
+ # -------------------------------- Font Sizes -------------------------------- #
+- `--bs-font-size`
+- `--bs-font-size-sm`
+- `--bs-font-size-base`
+- `--bs-font-size-lg`
+- `--bs-font-size-xl`
+
+ # ---------------------------------- Borders --------------------------------- #
+- `--bs-border-width`
+- `--bs-border-color`
+- `--bs-border-radius`
+- `--bs-border-radius-sm`
+- `--bs-border-radius-lg`
+
+ # ---------------------------------- Shadows --------------------------------- #
+- `--bs-shadow-sm`
+- `--bs-shadow`
+- `--bs-shadow-lg`
+
+ # ---------------------------------- Z-Index --------------------------------- #
+- `--bs-zindex-dropdown`
+- `--bs-zindex-sticky`
+- `--bs-zindex-fixed`
+- `--bs-zindex-modal-backdrop`
+- `--bs-zindex-modal`
+- `--bs-zindex-popover`
+- `--bs-zindex-tooltip`
+
+ # -------------------------------- Components -------------------------------- #
+- `--bs-btn-padding-y`
+- `--bs-btn-padding-x`
+- `--bs-btn-font-family`
+- `--bs-btn-font-size`
+- `--bs-btn-font-weight`
+- `--bs-btn-line-height`
+- `--bs-btn-border-radius`
+- `--bs-btn-box-shadow`
+- `--bs-btn-hover-box-shadow`
+- `--bs-card-spacer-y`
+- `--bs-card-spacer-x`
+- `--bs-card-title-spacer-y`
+- `--bs-card-border-width`
+- `--bs-card-border-radius`
+- `--bs-card-box-shadow`
+
+ # ----------------------------------- Forms ---------------------------------- #
+- `--bs-input-padding-y`
+- `--bs-input-padding-x`
+- `--bs-input-font-family`
+- `--bs-input-font-size`
+- `--bs-input-font-weight`
+- `--bs-input-line-height`
+- `--bs-input-border-radius`
+- `--bs-input-box-shadow`
+- `--bs-input-hover-box-shadow`
+
+ # ---------------------------------- Alerts ---------------------------------- #
+- `--bs-alert-padding-y`
+- `--bs-alert-padding-x`
+- `--bs-alert-margin-bottom`
+- `--bs-alert-border-radius`
+- `--bs-alert-link-font-weight`
+- `--bs-alert-box-shadow`
+
+ # ---------------------------------- Modals ---------------------------------- #
+- `--bs-modal-padding`
+- `--bs-modal-header-padding`
+- `--bs-modal-header-border-width`
+- `--bs-modal-footer-margin`
+
+ # --------------------------------- Tooltips --------------------------------- #
+- `--bs-tooltip-padding-y`
+- `--bs-tooltip-padding-x`
+- `--bs-tooltip-margin`
+- `--bs-tooltip-font-family`
+- `--bs-tooltip-font-size`
+- `--bs-tooltip-line-height`
+- `--bs-tooltip-color`
+- `--bs-tooltip-background-color`
+- `--bs-tooltip-border-radius`
+- `--bs-tooltip-opacity`
+- `--bs-tooltip-arrow-width`
+- `--bs-tooltip-arrow-color`
+- `--bs-tooltip-box-shadow`
+
+ # --------------------------------- Popovers --------------------------------- #
+- `--bs-popover-padding-y`
+- `--bs-popover-padding-x`
+- `--bs-popover-margin`
+- `--bs-popover-font-family`
+- `--bs-popover-font-size`
+- `--bs-popover-line-height`
+- `--bs-popover-color`
+- `--bs-popover-background-color`
+- `--bs-popover-border-radius`
+- `--bs-popover-box-shadow`
+- `--bs-popover-header-padding-y`
+- `--bs-popover-header-padding-x`
+- `--bs-popover-header-color`
+- `--bs-popover-header-background-color`
+- `--bs-popover-header-border-color`
+- `--bs-popover-body-padding-y`
+- `--bs-popover-body-padding-x`
+
+This list includes some of the key variables available in Bootstrap 5. For a complete list and more detailed information, you can refer to the official [Bootstrap documentation on Sass variables](https://getbootstrap.com/docs/5.1/customize/sass/).
