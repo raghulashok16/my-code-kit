@@ -1,0 +1,384 @@
+Bootstrap 5 provides a comprehensive set of classes to style tables and make them responsive. These classes help you create tables that are not only visually appealing but also adaptable to different screen sizes.
+
+Here are all the table classes available in Bootstrap 5:
+
+# ---------------------------- Basic Table Classes --------------------------- #
+
+1. `.table`
+   - Adds basic styling to a table.
+   - Example:
+     html
+     <table class="table">
+       <!-- Table content -->
+     </table>
+     
+
+2. `.table-striped`
+   - Adds zebra-striping to any table row within `<tbody>`.
+   - Example:
+     html
+     <table class="table table-striped">
+       <!-- Table content -->
+     </table>
+     
+
+3. `.table-bordered`
+   - Adds borders to all table cells.
+   - Example:
+     html
+     <table class="table table-bordered">
+       <!-- Table content -->
+     </table>
+     
+
+4. `.table-borderless`
+   - Removes all borders from the table.
+   - Example:
+     html
+     <table class="table table-borderless">
+       <!-- Table content -->
+     </table>
+     
+
+5. `.table-hover`
+   - Adds a hover effect (highlight) on table rows.
+   - Example:
+     html
+     <table class="table table-hover">
+       <!-- Table content -->
+     </table>
+     
+
+6. `.table-sm`
+   - Makes the table more compact by cutting cell padding in half.
+   - Example:
+     html
+     <table class="table table-sm">
+       <!-- Table content -->
+     </table>
+     
+
+7. `.table-dark`
+   - Inverts the colors of the table by applying a dark background and light text.
+   - Example:
+     html
+     <table class="table table-dark">
+       <!-- Table content -->
+     </table>
+     
+
+8. `.table-light`
+   - Applies a light background and dark text.
+   - Example:
+     html
+     <table class="table table-light">
+       <!-- Table content -->
+     </table>
+     
+
+# ----------------------------- Table Row Classes ---------------------------- #
+
+9. `.table-active`
+   - Highlights a row or cell by adding a gray background.
+   - Example:
+     html
+     <tr class="table-active">
+       <!-- Row content -->
+     </tr>
+     
+
+10. `.table-primary`, `.table-secondary`, `.table-success`, `.table-danger`, `.table-warning`, `.table-info`, `.table-light`, `.table-dark`
+    - Adds contextual classes to table rows or cells.
+    - Example:
+      html
+      <tr class="table-primary">
+        <!-- Row content -->
+      </tr>
+      <tr class="table-success">
+        <!-- Row content -->
+      </tr>
+      
+
+# ----------------------------- Responsive Tables ---------------------------- #
+
+11. `.table-responsive`
+    - Makes the table horizontally scrollable on smaller screens.
+    - Example:
+      html
+      <div class="table-responsive">
+        <table class="table">
+          <!-- Table content -->
+        </table>
+      </div>
+      
+
+12. `.table-responsive-sm`
+    - Makes the table horizontally scrollable on screens smaller than 576px.
+    - Example:
+      html
+      <div class="table-responsive-sm">
+        <table class="table">
+          <!-- Table content -->
+        </table>
+      </div>
+      
+
+13. `.table-responsive-md`
+    - Makes the table horizontally scrollable on screens smaller than 768px.
+    - Example:
+      html
+      <div class="table-responsive-md">
+        <table class="table">
+          <!-- Table content -->
+        </table>
+      </div>
+      
+
+14. `.table-responsive-lg`
+    - Makes the table horizontally scrollable on screens smaller than 992px.
+    - Example:
+      html
+      <div class="table-responsive-lg">
+        <table class="table">
+          <!-- Table content -->
+        </table>
+      </div>
+      
+
+15. `.table-responsive-xl`
+    - Makes the table horizontally scrollable on screens smaller than 1200px.
+    - Example:
+      html
+      <div class="table-responsive-xl">
+        <table class="table">
+          <!-- Table content -->
+        </table>
+      </div>
+      
+
+16. `.table-responsive-xxl`
+    - Makes the table horizontally scrollable on screens smaller than 1400px.
+    - Example:
+      html
+      <div class="table-responsive-xxl">
+        <table class="table">
+          <!-- Table content -->
+        </table>
+      </div>
+      
+
+# ------------------------------- Example Usage ------------------------------ #
+Here is an example demonstrating the use of various table classes in Bootstrap 5:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Table Classes Example</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <!-- Basic Table -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Striped Table -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Bordered Table -->
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Hoverable Table -->
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Small Table -->
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Dark Table -->
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Responsive Table -->
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Username</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# -------------------------------- Explanation ------------------------------- #
+
+1. Basic Table: Uses the `.table` class to add basic styling.
+2. Striped Table: Uses the `.table-striped` class to add zebra-striping.
+3. Bordered Table: Uses the `.table-bordered` class to add borders to all cells.
+4. Hoverable Table: Uses the `.table-hover` class to add a hover effect on rows.
+5. Small Table: Uses the `.table-sm` class to make the table more compact.
+6. Dark Table: Uses the `.table-dark` class to invert the colors.
+7. Responsive Table: Uses the `.table-responsive` class to make the table horizontally scrollable on smaller screens.
+
+These table classes help you create well-styled and responsive tables in your Bootstrap 5 projects.
