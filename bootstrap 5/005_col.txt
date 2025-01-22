@@ -1,0 +1,150 @@
+In Bootstrap 5, the grid system is built with a series of container, row, and column classes. The column classes are used to define the structure and layout of your content. Here are all the `col` classes available in Bootstrap 5:
+
+# --------------------------- Basic Column Classes --------------------------- #
+
+1. `.col`
+   - Creates a column that spans the available space.
+   - Example: `<div class="col">Content</div>`
+
+# ---------------------------- Column Span Classes --------------------------- #
+These classes control the number of columns an element should span:
+
+2. `.col-1` to `.col-12`
+   - Spans 1 to 12 columns respectively.
+   - Example: `<div class="col-6">Half Width</div>`
+
+# ------------------------- Responsive Column Classes ------------------------ #
+These classes make the columns responsive, adapting to different viewport sizes:
+
+3. `.col-sm` to `.col-sm-12`
+   - For small devices and up (≥576px).
+   - Example: `<div class="col-sm-6">Half Width on Small Devices and Up</div>`
+
+4. `.col-md` to `.col-md-12`
+   - For medium devices and up (≥768px).
+   - Example: `<div class="col-md-4">One Third Width on Medium Devices and Up</div>`
+
+5. `.col-lg` to `.col-lg-12`
+   - For large devices and up (≥992px).
+   - Example: `<div class="col-lg-3">One Fourth Width on Large Devices and Up</div>`
+
+6. `.col-xl` to `.col-xl-12`
+   - For extra-large devices and up (≥1200px).
+   - Example: `<div class="col-xl-2">One Sixth Width on Extra Large Devices and Up</div>`
+
+7. `.col-xxl` to `.col-xxl-12`
+   - For extra-extra-large devices and up (≥1400px).
+   - Example: `<div class="col-xxl-1">One Twelfth Width on Extra Extra Large Devices and Up</div>`
+
+# ---------------------------- Auto Layout Columns --------------------------- #
+These classes size columns based on the content width:
+
+8. `.col-auto`
+   - Sizes columns based on their content.
+   - Example: `<div class="col-auto">Content</div>`
+
+# ------------------------------ Offset Classes ------------------------------ #
+These classes offset columns to the right:
+
+9. `.offset-1` to `.offset-12`
+   - Offsets columns by 1 to 12 columns respectively.
+   - Example: `<div class="col-6 offset-3">Centered Column</div>`
+
+10. `.offset-sm-1` to `.offset-sm-12`
+    - Offsets columns by 1 to 12 columns for small devices and up.
+    - Example: `<div class="col-sm-6 offset-sm-3">Centered Column on Small Devices and Up</div>`
+
+11. `.offset-md-1` to `.offset-md-12`
+    - Offsets columns by 1 to 12 columns for medium devices and up.
+    - Example: `<div class="col-md-6 offset-md-3">Centered Column on Medium Devices and Up</div>`
+
+12. `.offset-lg-1` to `.offset-lg-12`
+    - Offsets columns by 1 to 12 columns for large devices and up.
+    - Example: `<div class="col-lg-6 offset-lg-3">Centered Column on Large Devices and Up</div>`
+
+13. `.offset-xl-1` to `.offset-xl-12`
+    - Offsets columns by 1 to 12 columns for extra-large devices and up.
+    - Example: `<div class="col-xl-6 offset-xl-3">Centered Column on Extra Large Devices and Up</div>`
+
+14. `.offset-xxl-1` to `.offset-xxl-12`
+    - Offsets columns by 1 to 12 columns for extra-extra-large devices and up.
+    - Example: `<div class="col-xxl-6 offset-xxl-3">Centered Column on Extra Extra Large Devices and Up</div>`
+
+# ------------------------------- Order Classes ------------------------------ #
+These classes control the visual order of columns:
+
+15. `.order-0` to `.order-12`
+    - Sets the order of columns from 0 to 12.
+    - Example: `<div class="col order-1">First Order</div>`
+
+16. `.order-sm-0` to `.order-sm-12`
+    - Sets the order of columns from 0 to 12 for small devices and up.
+    - Example: `<div class="col-sm order-sm-1">First Order on Small Devices and Up</div>`
+
+17. `.order-md-0` to `.order-md-12`
+    - Sets the order of columns from 0 to 12 for medium devices and up.
+    - Example: `<div class="col-md order-md-1">First Order on Medium Devices and Up</div>`
+
+18. `.order-lg-0` to `.order-lg-12`
+    - Sets the order of columns from 0 to 12 for large devices and up.
+    - Example: `<div class="col-lg order-lg-1">First Order on Large Devices and Up</div>`
+
+19. `.order-xl-0` to `.order-xl-12`
+    - Sets the order of columns from 0 to 12 for extra-large devices and up.
+    - Example: `<div class="col-xl order-xl-1">First Order on Extra Large Devices and Up</div>`
+
+20. `.order-xxl-0` to `.order-xxl-12`
+    - Sets the order of columns from 0 to 12 for extra-extra-large devices and up.
+    - Example: `<div class="col-xxl order-xxl-1">First Order on Extra Extra Large Devices and Up</div>`
+
+21. `.order-first`
+    - Moves the column to the first position.
+    - Example: `<div class="col order-first">First Column</div>`
+
+22. `.order-last`
+    - Moves the column to the last position.
+    - Example: `<div class="col order-last">Last Column</div>`
+
+# ----------------------------- Alignment Classes ---------------------------- #
+These classes align columns within a row:
+
+23. `.align-items-start`
+    - Aligns items to the start of the container.
+    - Example: `<div class="row align-items-start">...</div>`
+
+24. `.align-items-center`
+    - Aligns items to the center of the container.
+    - Example: `<div class="row align-items-center">...</div>`
+
+25. `.align-items-end`
+    - Aligns items to the end of the container.
+    - Example: `<div class="row align-items-end">...</div>`
+
+26. `.align-self-start`
+    - Aligns a single item to the start of the container.
+    - Example: `<div class="col align-self-start">...</div>`
+
+27. `.align-self-center`
+    - Aligns a single item to the center of the container.
+    - Example: `<div class="col align-self-center">...</div>`
+
+28. `.align-self-end`
+    - Aligns a single item to the end of the container.
+    - Example: `<div class="col align-self-end">...</div>`
+
+# -------------------------- Gutter Spacing Classes -------------------------- #
+These classes control the gutter spacing between columns:
+
+29. `.g-0` to `.g-5`
+    - Sets both horizontal and vertical gutter spacing from 0 to 5.
+    - Example: `<div class="row g-3">...</div>`
+
+30. `.gx-0` to `.gx-5`
+    - Sets horizontal gutter spacing from 0 to 5.
+    - Example: `<div class="row gx-2">...</div>`
+
+31. `.gy-0` to `.gy-5`
+    - Sets vertical gutter spacing from 0 to 5.
+    - Example: `<div class="row gy-4">...</div>`
+
+These classes provide a flexible and powerful system for creating responsive layouts in your Bootstrap 5 projects. You can combine them to create complex layouts that adapt to different screen sizes and devices.
