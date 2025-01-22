@@ -1,0 +1,170 @@
+Sure! Here are multiple examples of how you can use the `--bs-primary-rgb` custom property in different contexts within your CSS:
+
+# --------------- Example 1: Background Color with Transparency -------------- #
+Using `--bs-primary-rgb` to set the background color of a `div` with transparency.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Primary RGB Background</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-primary-background {
+      background-color: rgba(var(--bs-primary-rgb), 0.5); /* 50% transparency */
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="custom-primary-background">
+      This div has a custom primary background with 50% transparency using --bs-primary-rgb.
+    </div>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# -------------------------- Example 2: Border Color ------------------------- #
+Using `--bs-primary-rgb` to set the border color of a `div`.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Primary RGB Border</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-primary-border {
+      border: 2px solid rgb(var(--bs-primary-rgb));
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="custom-primary-border">
+      This div has a custom primary border using --bs-primary-rgb.
+    </div>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# -------------------------- Example 3: Text Shadow -------------------------- #
+Using `--bs-primary-rgb` to set the shadow color of a text.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Primary RGB Text Shadow</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-primary-text-shadow {
+      text-shadow: 2px 2px 4px rgba(var(--bs-primary-rgb), 0.5);
+      font-size: 24px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <p class="custom-primary-text-shadow">
+      This text has a custom shadow using --bs-primary-rgb.
+    </p>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# -------------- Example 4: Button Background with Hover Effect -------------- #
+Using `--bs-primary-rgb` to set the background color of a button with a hover effect.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Primary RGB Button</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-primary-button {
+      background-color: rgba(var(--bs-primary-rgb), 0.8);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .custom-primary-button:hover {
+      background-color: rgba(var(--bs-primary-rgb), 1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <button class="custom-primary-button">
+      Custom Primary Button
+    </button>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# --------------------------- Example 5: Box Shadow -------------------------- #
+Using `--bs-primary-rgb` to set the shadow color of a `div`.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Primary RGB Box Shadow</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-primary-shadow {
+      box-shadow: 0 4px 8px 0 rgba(var(--bs-primary-rgb), 0.5);
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="custom-primary-shadow">
+      This div has a custom box shadow using --bs-primary-rgb.
+    </div>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+These examples demonstrate various ways to use the `--bs-primary-rgb` custom property in your CSS to apply Bootstrap's primary color in different contexts. By leveraging CSS variables, you can maintain consistency and make it easier to manage theme colors across your application.
