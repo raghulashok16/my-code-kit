@@ -1,0 +1,212 @@
+Bootstrap 5 provides a comprehensive set of typography classes to help style text in your web projects. These classes cover a wide range of use cases, including headings, body text, alignment, display properties, and more. Here is a detailed list of all the typography classes available in Bootstrap 5:
+
+# --------------------------------- Headings --------------------------------- #
+Bootstrap provides classes to style headings from `<h1>` to `<h6>`. Each class corresponds to the respective HTML heading element.
+
+- `.h1`, `.h2`, `.h3`, `.h4`, `.h5`, `.h6`: Apply heading styles to any element.
+  html
+  <h1 class="h1">Heading 1</h1>
+  <h2 class="h2">Heading 2</h2>
+  <h3 class="h3">Heading 3</h3>
+  <h4 class="h4">Heading 4</h4>
+  <h5 class="h5">Heading 5</h5>
+  <h6 class="h6">Heading 6</h6>
+  
+
+# ----------------------------- Display Headings ----------------------------- #
+Display headings are larger, more prominent headings.
+
+- `.display-1`, `.display-2`, `.display-3`, `.display-4`, `.display-5`, `.display-6`: Apply display heading styles to any element.
+  html
+  <h1 class="display-1">Display 1</h1>
+  <h1 class="display-2">Display 2</h1>
+  <h1 class="display-3">Display 3</h1>
+  <h1 class="display-4">Display 4</h1>
+  <h1 class="display-5">Display 5</h1>
+  <h1 class="display-6">Display 6</h1>
+  
+
+# ----------------------------------- Lead ----------------------------------- #
+Lead text is used for introductory text in a larger, lighter font.
+
+- `.lead`: Make a paragraph stand out.
+  html
+  <p class="lead">This is a lead paragraph. It stands out from regular paragraphs.</p>
+  
+
+# --------------------------- Inline Text Elements --------------------------- #
+Bootstrap provides classes for inline text elements.
+
+- `.mark`: Highlight text.
+  html
+  <mark>Highlighted text</mark>
+  
+- `.small`: Indicate smaller text.
+  html
+  <small>Smaller text</small>
+  
+- `.text-muted`: Muted text color.
+  html
+  <span class="text-muted">Muted text</span>
+  
+- `.text-primary`, `.text-secondary`, `.text-success`, `.text-danger`, `.text-warning`, `.text-info`, `.text-light`, `.text-dark`, `.text-body`, `.text-white`, `.text-black-50`, `.text-white-50`: Text color utility classes.
+  html
+  <span class="text-primary">Primary text</span>
+  <span class="text-secondary">Secondary text</span>
+  <span class="text-success">Success text</span>
+  <span class="text-danger">Danger text</span>
+  <span class="text-warning">Warning text</span>
+  <span class="text-info">Info text</span>
+  <span class="text-light bg-dark">Light text</span>
+  <span class="text-dark">Dark text</span>
+  <span class="text-body">Body text</span>
+  <span class="text-white bg-dark">White text</span>
+  <span class="text-black-50">Black 50% opacity text</span>
+  <span class="text-white-50 bg-dark">White 50% opacity text</span>
+  
+
+# ------------------------------ Text Alignment ------------------------------ #
+Classes for text alignment.
+
+- `.text-start`: Left-align text.
+  html
+  <p class="text-start">Left-aligned text.</p>
+  
+- `.text-center`: Center-align text.
+  html
+  <p class="text-center">Center-aligned text.</p>
+  
+- `.text-end`: Right-align text.
+  html
+  <p class="text-end">Right-aligned text.</p>
+  
+
+# ---------------------------- Text Transformation --------------------------- #
+Classes for text transformation.
+
+- `.text-lowercase`: Lowercase text.
+  html
+  <p class="text-lowercase">Lowercase text.</p>
+  
+- `.text-uppercase`: Uppercase text.
+  html
+  <p class="text-uppercase">Uppercase text.</p>
+  
+- `.text-capitalize`: Capitalize text.
+  html
+  <p class="text-capitalize">Capitalized text.</p>
+  
+
+# -------------------------- Font Weight and Italics ------------------------- #
+Classes for font weight and italics.
+
+- `.fw-light`: Light font weight.
+  html
+  <p class="fw-light">Light font weight.</p>
+  
+- `.fw-normal`: Normal font weight.
+  html
+  <p class="fw-normal">Normal font weight.</p>
+  
+- `.fw-bold`: Bold font weight.
+  html
+  <p class="fw-bold">Bold font weight.</p>
+  
+- `.fst-italic`: Italic text.
+  html
+  <p class="fst-italic">Italic text.</p>
+  
+- `.fst-normal`: Normal (non-italic) text.
+  html
+  <p class="fst-normal">Normal (non-italic) text.</p>
+  
+
+# -------------------------------- Line Height ------------------------------- #
+Classes to control the line height of text.
+
+- `.lh-1`: Line height of 1.
+  html
+  <p class="lh-1">Line height 1.</p>
+  
+- `.lh-sm`: Small line height.
+  html
+  <p class="lh-sm">Small line height.</p>
+  
+- `.lh-base`: Base line height.
+  html
+  <p class="lh-base">Base line height.</p>
+  
+- `.lh-lg`: Large line height.
+  html
+  <p class="lh-lg">Large line height.</p>
+  
+
+# --------------------------------- Monospace -------------------------------- #
+Class for monospace font.
+
+- `.font-monospace`: Apply monospace font.
+  html
+  <p class="font-monospace">Monospace text.</p>
+  
+
+# -------------------------------- Reset Color ------------------------------- #
+Class to reset text color.
+
+- `.text-reset`: Reset text color to inherit.
+  html
+  <a href="#" class="text-reset">Reset text color link</a>
+  
+
+# ------------------------------ Text Decoration ----------------------------- #
+Classes for text decoration.
+
+- `.text-decoration-none`: Remove text decoration.
+  html
+  <a href="#" class="text-decoration-none">No text decoration link</a>
+  
+- `.text-decoration-underline`: Underline text.
+  html
+  <a href="#" class="text-decoration-underline">Underlined text link</a>
+  
+- `.text-decoration-line-through`: Line-through text.
+  html
+  <a href="#" class="text-decoration-line-through">Line-through text link</a>
+  
+
+# ------------------------------- Example Usage ------------------------------ #
+
+Here's an example demonstrating the use of various typography classes in Bootstrap 5:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Typography Classes Example</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="h1">Heading 1</h1>
+    <h2 class="display-2">Display 2</h2>
+    <p class="lead">This is a lead paragraph.</p>
+    <p><mark>Highlighted text</mark> and <small>smaller text</small>.</p>
+    <p class="text-muted">Muted text.</p>
+    <p class="text-primary">Primary text.</p>
+    <p class="text-center">Center-aligned text.</p>
+    <p class="text-uppercase">Uppercase text.</p>
+    <p class="fw-bold">Bold text.</p>
+    <p class="fst-italic">Italic text.</p>
+    <p class="lh-lg">Large line height text.</p>
+    <p class="font-monospace">Monospace text.</p>
+    <a href="#" class="text-reset">Reset text color link</a>
+    <a href="#" class="text-decoration-underline">Underlined text link</a>
+  </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+This example demonstrates how to use various Bootstrap 5 typography classes to style text elements in your web projects.
