@@ -1,12 +1,12 @@
 In Bootstrap 5, floating labels are used to enhance form inputs by allowing labels to float above the input fields when they are focused or contain a value. Here are the classes used with floating labels in Bootstrap 5:
 
-1. **`.form-floating`**
+1. `.form-floating`
    - This class is used to wrap the input and label elements to enable floating labels.
 
-2. **`.form-control`**
+2. `.form-control`
    - This class is applied to the input element (e.g., `<input>`, `<textarea>`) to style it as a Bootstrap form control.
 
-3. **`.form-select`**
+3. `.form-select`
    - This class is used for select elements within a floating label to style dropdown menus.
 
  # ------------------------------ Example Usage: ------------------------------ #
@@ -34,8 +34,104 @@ html:
 
 Explanation:
 
-- **`.form-floating`**: This class wraps around the input and label elements to enable the floating label effect.
-- **`.form-control`**: Applied to input elements to style them as Bootstrap form controls.
-- **`.form-select`**: Applied to select elements to style them as Bootstrap dropdown menus.
+- `.form-floating`: This class wraps around the input and label elements to enable the floating label effect.
+- `.form-control`: Applied to input elements to style them as Bootstrap form controls.
+- `.form-select`: Applied to select elements to style them as Bootstrap dropdown menus.
 
 These classes work together to create stylish and functional floating labels in your forms using Bootstrap 5.
+
+
+# --------------------------------- textarea --------------------------------- #
+
+Certainly! Here's how you can use textareas in Bootstrap 5 with some examples and explanations:
+
+# ------------------------------ Basic Textarea ------------------------------ #
+
+A basic textarea can be created using the `.form-control` class to make it look consistent with other form controls in Bootstrap.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+//////////////////////////////////////////////
+
+
+ Explanation:
+- `.mb-3`: Adds margin-bottom to create spacing between form elements.
+- `.form-label`: Styles the label for the textarea.
+- `.form-control`: Styles the textarea to match Bootstrap's form controls.
+- `rows="3"`: Sets the number of visible text lines for the control.
+
+# ----------------------- Textarea with Floating Label ----------------------- #
+
+To create a textarea with a floating label, wrap the textarea and label inside a `.form-floating` container.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+  <label for="floatingTextarea">Comments</label>
+</div>
+//////////////////////////////////////////////
+
+
+ Explanation:
+- `.form-floating`: Enables the floating label effect.
+- `placeholder="Leave a comment here"`: Sets the placeholder text that will be displayed when the textarea is empty.
+
+# ------------------------- Textarea with Helper Text ------------------------ #
+
+You can also add helper text below the textarea for additional instructions.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="mb-3">
+  <label for="helperTextarea" class="form-label">Textarea with helper text</label>
+  <textarea class="form-control" id="helperTextarea" rows="3"></textarea>
+  <div id="helperTextareaHelp" class="form-text">We'll never share your data with anyone else.</div>
+</div>
+//////////////////////////////////////////////
+
+
+ Explanation:
+- `.form-text`: Styles the helper text below the textarea.
+
+# ------------------------- Textarea with Validation ------------------------- #
+
+Bootstrap provides classes to indicate valid and invalid states of form controls.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="mb-3">
+  <label for="validationTextarea" class="form-label">Textarea with validation</label>
+  <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+  <div class="invalid-feedback">
+    Please enter a message in the textarea.
+  </div>
+</div>
+//////////////////////////////////////////////
+
+
+ Explanation:
+- `.is-invalid`: Adds styles to indicate an invalid state.
+- `.invalid-feedback`: Provides feedback for invalid input.
+
+# ----------------------------- Disabled Textarea ---------------------------- #
+
+To disable a textarea, add the `disabled` attribute.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="mb-3">
+  <label for="disabledTextarea" class="form-label">Disabled textarea</label>
+  <textarea class="form-control" id="disabledTextarea" rows="3" disabled></textarea>
+</div>
+//////////////////////////////////////////////
+
+
+Explanation:
+- `disabled`: Disables the textarea so the user cannot interact with it.
+
+These examples cover various uses of textareas in Bootstrap 5, providing you with flexible options to integrate them into your forms.
