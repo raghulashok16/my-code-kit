@@ -1,0 +1,49 @@
+In Bootstrap 5, the utility class used to visually hide elements while keeping them accessible to screen readers is `.visually-hidden`. This is particularly useful for accessibility purposes, such as providing additional context to screen reader users without displaying the content on the screen.
+
+# -------- Here are the classes under visually hidden in Bootstrap 5: -------- #
+
+1. `.visually-hidden`
+   - Hides an element visually but keeps it accessible to screen readers.
+
+2. `.visually-hidden-focusable`
+   - Hides an element visually but makes it visible when focused (useful for skip-to-content links or similar interactive elements).
+
+# ------------------------------- Example Usage ------------------------------ #
+
+Here is an example of how to use these classes in your HTML:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Visually Hidden Classes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Visually Hidden Element -->
+        <p class="visually-hidden">This text is hidden visually but accessible to screen readers.</p>
+
+        <!-- Visually Hidden Focusable Element -->
+        <a href="#main-content" class="visually-hidden-focusable">Skip to main content</a>
+
+        <!-- Example Main Content -->
+        <div id="main-content" class="mt-5">
+            <h1>Main Content</h1>
+            <p>This is the main content of the page.</p>
+        </div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+ Explanation:
+
+- `.visually-hidden`: The paragraph with this class will not be visible on the screen but will still be accessible to screen readers.
+- `.visually-hidden-focusable`: The anchor link with this class will be hidden visually but will become visible when it receives focus (e.g., when navigated to via keyboard).
+
+These classes help maintain accessibility standards while allowing you to control the visibility of elements in your Bootstrap 5 projects.
