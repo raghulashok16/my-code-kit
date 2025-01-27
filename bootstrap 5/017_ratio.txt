@@ -1,0 +1,66 @@
+In Bootstrap 5, the `ratio` utility classes are used to create responsive, aspect-ratio boxes. These classes help maintain the aspect ratio of an element, such as an image or a video, regardless of its content. Here are the available `ratio` classes in Bootstrap 5:
+
+1. `.ratio`
+   - This is the base class used to enable the ratio utility.
+
+2. `.ratio-1x1`
+   - Creates a 1:1 aspect ratio (square).
+
+3. `.ratio-4x3`
+   - Creates a 4:3 aspect ratio.
+
+4. `.ratio-16x9`
+   - Creates a 16:9 aspect ratio.
+
+5. `.ratio-21x9`
+   - Creates a 21:9 aspect ratio.
+
+# ------------------------------- Example Usage ------------------------------ #
+
+Here's an example of how to use these ratio classes:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Ratio Classes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- 1:1 Aspect Ratio -->
+        <div class="ratio ratio-1x1">
+            <img src="https://via.placeholder.com/150" alt="1x1 Ratio" class="img-fluid">
+        </div>
+
+        <!-- 4:3 Aspect Ratio -->
+        <div class="ratio ratio-4x3 mt-3">
+            <img src="https://via.placeholder.com/400x300" alt="4x3 Ratio" class="img-fluid">
+        </div>
+
+        <!-- 16:9 Aspect Ratio -->
+        <div class="ratio ratio-16x9 mt-3">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
+        </div>
+
+        <!-- 21:9 Aspect Ratio -->
+        <div class="ratio ratio-21x9 mt-3">
+            <img src="https://via.placeholder.com/2100x900" alt="21x9 Ratio" class="img-fluid">
+        </div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+Explanation:
+
+- `.ratio`: This base class enables the ratio utility.
+- `.ratio-1x1`, `.ratio-4x3`, `.ratio-16x9`, `.ratio-21x9`: These classes set the specific aspect ratios.
+- `.img-fluid`: This class ensures that images are responsive and scale with the parent element.
+- `iframe`: You can also use ratio classes to maintain the aspect ratio for embedded content like iframes.
+
+These ratio classes help create responsive content that maintains its aspect ratio across different screen sizes, ensuring a consistent and visually appealing layout.
