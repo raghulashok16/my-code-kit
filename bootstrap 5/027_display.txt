@@ -1,0 +1,129 @@
+In Bootstrap 5, the display utility classes help you control the display property of elements. These classes allow you to easily set the display property to various values such as block, inline, inline-block, flex, grid, and more. Here is a list of all the display utility classes available in Bootstrap 5:
+
+# ------------------------------ Display Classes ----------------------------- #
+
+1. `.d-none`
+   - Sets `display: none;`.
+
+2. `.d-inline`
+   - Sets `display: inline;`.
+
+3. `.d-inline-block`
+   - Sets `display: inline-block;`.
+
+4. `.d-block`
+   - Sets `display: block;`.
+
+5. `.d-grid`
+   - Sets `display: grid;`.
+
+6. `.d-table`
+   - Sets `display: table;`.
+
+7. `.d-table-row`
+   - Sets `display: table-row;`.
+
+8. `.d-table-cell`
+   - Sets `display: table-cell;`.
+
+9. `.d-flex`
+   - Sets `display: flex;`.
+
+10. `.d-inline-flex`
+    - Sets `display: inline-flex;`.
+
+# ------------------------ Responsive Display Classes ------------------------ #
+
+These classes allow you to apply different display properties at different breakpoints:
+
+1. `.d-{breakpoint}-none`
+   - Sets `display: none;` at the specified breakpoint and up.
+   - Example: `.d-md-none` sets `display: none;` on medium screens and up.
+
+2. `.d-{breakpoint}-inline`
+   - Sets `display: inline;` at the specified breakpoint and up.
+   - Example: `.d-lg-inline` sets `display: inline;` on large screens and up.
+
+3. `.d-{breakpoint}-inline-block`
+   - Sets `display: inline-block;` at the specified breakpoint and up.
+   - Example: `.d-sm-inline-block` sets `display: inline-block;` on small screens and up.
+
+4. `.d-{breakpoint}-block`
+   - Sets `display: block;` at the specified breakpoint and up.
+   - Example: `.d-xl-block` sets `display: block;` on extra-large screens and up.
+
+5. `.d-{breakpoint}-grid`
+   - Sets `display: grid;` at the specified breakpoint and up.
+   - Example: `.d-md-grid` sets `display: grid;` on medium screens and up.
+
+6. `.d-{breakpoint}-table`
+   - Sets `display: table;` at the specified breakpoint and up.
+   - Example: `.d-lg-table` sets `display: table;` on large screens and up.
+
+7. `.d-{breakpoint}-table-row`
+   - Sets `display: table-row;` at the specified breakpoint and up.
+   - Example: `.d-sm-table-row` sets `display: table-row;` on small screens and up.
+
+8. `.d-{breakpoint}-table-cell`
+   - Sets `display: table-cell;` at the specified breakpoint and up.
+   - Example: `.d-xl-table-cell` sets `display: table-cell;` on extra-large screens and up.
+
+9. `.d-{breakpoint}-flex`
+   - Sets `display: flex;` at the specified breakpoint and up.
+   - Example: `.d-md-flex` sets `display: flex;` on medium screens and up.
+
+10. `.d-{breakpoint}-inline-flex`
+    - Sets `display: inline-flex;` at the specified breakpoint and up.
+    - Example: `.d-lg-inline-flex` sets `display: inline-flex;` on large screens and up.
+
+# ------------------------------- Example Usage ------------------------------ #
+
+Here's an example of how you can use these display classes in your HTML:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Display Classes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Basic Display Classes -->
+        <div class="d-none">This text will not be displayed.</div>
+        <div class="d-inline">This is inline text.</div>
+        <div class="d-inline-block">This is inline-block text.</div>
+        <div class="d-block">This is block-level text.</div>
+        <div class="d-grid">This is a grid container.</div>
+        <div class="d-table">This is a table container.</div>
+        <div class="d-table-row">This is a table row.</div>
+        <div class="d-table-cell">This is a table cell.</div>
+        <div class="d-flex">This is a flex container.</div>
+        <div class="d-inline-flex">This is an inline-flex container.</div>
+
+        <!-- Responsive Display Classes -->
+        <div class="d-md-none">This text is hidden on medium screens and up.</div>
+        <div class="d-lg-inline">This is inline text on large screens and up.</div>
+        <div class="d-sm-inline-block">This is inline-block text on small screens and up.</div>
+        <div class="d-xl-block">This is block-level text on extra-large screens and up.</div>
+        <div class="d-md-grid">This is a grid container on medium screens and up.</div>
+        <div class="d-lg-table">This is a table container on large screens and up.</div>
+        <div class="d-sm-table-row">This is a table row on small screens and up.</div>
+        <div class="d-xl-table-cell">This is a table cell on extra-large screens and up.</div>
+        <div class="d-md-flex">This is a flex container on medium screens and up.</div>
+        <div class="d-lg-inline-flex">This is an inline-flex container on large screens and up.</div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+Explanation:
+
+- Basic Display Classes: These classes set the display property of elements to various values such as `none`, `inline`, `block`, `flex`, etc.
+- Responsive Display Classes: These classes set the display property at specific breakpoints, allowing for responsive design adjustments.
+
+These utility classes allow you to control the display behavior of elements easily and responsively in your Bootstrap 5 projects.
