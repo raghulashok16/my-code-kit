@@ -160,7 +160,7 @@ html:
 //////////////////////////////////////////////
 
 
-### Explanation:
+ Explanation:
 1. **Standard Range Input with Min and Max:**
     - The `min="0"` and `max="100"` attributes are used to set the range from 0 to 100.
     - The `.form-range` class is used to apply Bootstrap styling.
@@ -221,7 +221,7 @@ html:
 //////////////////////////////////////////////
 
 
-### Explanation:
+Explanation:
 1. **Standard Range Input with Min, Max, and Step:**
     - The `min="0"`, `max="100"`, and `step="10"` attributes are used to set the range from 0 to 100 with steps of 10.
     - The `.form-range` class is used to apply Bootstrap styling.
