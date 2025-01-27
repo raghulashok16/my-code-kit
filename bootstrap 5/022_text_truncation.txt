@@ -1,0 +1,65 @@
+In Bootstrap 5, text truncation utility classes help you control the display of overflowing text. These classes ensure that text content is truncated with an ellipsis (`...`) when it overflows its container. Here are the classes available for text truncation in Bootstrap 5:
+
+1. `.text-truncate`
+   - Truncates text with an ellipsis when it overflows its container. This class should be used on block-level elements and requires a fixed width.
+
+2. `.text-wrap`
+   - Forces text to wrap onto the next line when it reaches the end of the container.
+
+3. `.text-nowrap`
+   - Prevents text from wrapping onto the next line, keeping it on a single line.
+
+# ------------------------------- Example Usage ------------------------------ #
+
+Here are examples of how to use these text truncation classes in your HTML:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Text Truncation Classes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Text Truncate -->
+        <div class="row">
+            <div class="col-4">
+                <div class="text-truncate" style="width: 200px;">
+                    This is a long text that will be truncated when it overflows its container.
+                </div>
+            </div>
+        </div>
+        
+        <!-- Text Wrap -->
+        <div class="row mt-3">
+            <div class="col-4">
+                <div class="text-wrap" style="width: 200px;">
+                    This is a long text that will wrap onto the next line when it reaches the end of its container.
+                </div>
+            </div>
+        </div>
+        
+        <!-- Text No Wrap -->
+        <div class="row mt-3">
+            <div class="col-4">
+                <div class="text-nowrap" style="width: 200px;">
+                    This is a long text that will not wrap onto the next line, keeping it on a single line.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+Explanation:
+- `.text-truncate`: The text inside the element with this class will be truncated with an ellipsis (`...`) if it overflows the container. Ensure the container has a fixed width to see the effect.
+- `.text-wrap`: The text inside the element with this class will wrap onto the next line when it reaches the end of the container.
+- `.text-nowrap`: The text inside the element with this class will not wrap onto the next line, keeping all text on a single line.
+
+These utility classes help you manage the display of text content within your Bootstrap 5 projects, ensuring that text is appropriately truncated, wrapped, or kept on a single line as needed.
