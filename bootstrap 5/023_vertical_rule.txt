@@ -1,0 +1,113 @@
+In Bootstrap 5, there isn't a specific class named "vertical rrule." However, if you are referring to vertical rules (lines) or dividers that are used to separate content vertically, you can achieve this using various utility classes. Here are some of the utility classes and methods you can use to create vertical rules or dividers in Bootstrap 5:
+
+# ------------ Bootstrap 5 Vertical Divider Classes and Techniques ----------- #
+
+1. `.border` and `.border-start` / `.border-end`:
+   - Use these classes to add borders to elements, which can act as vertical dividers.
+
+2. `.vr`:
+   - This class creates a vertical rule. It is typically used in navbars and other layout scenarios to separate content vertically.
+
+3. `.divider-vertical`:
+   - While not a built-in Bootstrap class, you can create a custom class to style a vertical divider.
+
+Example Usage
+
+Below are examples of how to use these classes:
+
+# -------------------- Using `.border` and `.border-start` ------------------- #
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Vertical Divider</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-4">
+                <p>Column 1</p>
+            </div>
+            <div class="col-1 border-start"></div>
+            <div class="col-7">
+                <p>Column 2</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# -------------------------------- Using `.vr` ------------------------------- #
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Vertical Rule</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex align-items-center">
+            <div class="p-2">Item 1</div>
+            <div class="vr mx-3"></div>
+            <div class="p-2">Item 2</div>
+        </div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+# -------------------------- Custom Vertical Divider ------------------------- #
+
+You can create a custom class to style a vertical divider.
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Custom Vertical Divider</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .divider-vertical {
+            width: 1px;
+            background-color: #000;
+            height: 100%;
+            margin: 0 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex align-items-center">
+            <div class="p-2">Item 1</div>
+            <div class="divider-vertical"></div>
+            <div class="p-2">Item 2</div>
+        </div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+Explanation:
+
+- `.border-start`: Adds a border to the start (left side in LTR languages) of the element.
+- `.vr`: A built-in Bootstrap class that creates a vertical rule.
+- `.divider-vertical`: A custom class to create a styled vertical divider. You can customize the width, height, and color as needed.
+
+These examples show different ways to create vertical dividers in Bootstrap 5, using both built-in and custom utility classes.
