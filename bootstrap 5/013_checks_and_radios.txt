@@ -1,6 +1,6 @@
 In Bootstrap 5, there are several utility classes and components for styling checkboxes and radio buttons. Here is a list of the main classes used for checks and radios:
 
-### Checkboxes
+# -------------------------------- Checkboxes -------------------------------- #
 
 1. `.form-check`: The main container class for a checkbox.
 2. `.form-check-input`: Applied to the `<input>` element of type `checkbox`.
@@ -9,7 +9,7 @@ In Bootstrap 5, there are several utility classes and components for styling che
 5. `.form-switch`: Used for creating toggle switches.
 6. `.form-check-reverse`: Reverses the order of the checkbox and label.
 
-### Radios
+# ---------------------------------- Radios ---------------------------------- #
 
 1. `.form-check`: The main container class for a radio button.
 2. `.form-check-input`: Applied to the `<input>` element of type `radio`.
