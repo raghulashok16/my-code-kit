@@ -1,0 +1,42 @@
+In Bootstrap 5, the `stretched-link` utility class is used to make an entire block clickable by stretching a link to fill the entire space of its parent container. This is especially useful when you want a link to cover the entire area of a card or any other container element.
+
+# ------ Here is the class available for stretched links in Bootstrap 5: ----- #
+
+1. `.stretched-link`
+   - This class makes the link cover the entire area of its parent container, making the whole block clickable.
+
+# ------------------------------- Example Usage ------------------------------ #
+
+Here is an example of how to use the `.stretched-link` class in your HTML:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Stretched Links</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Example Card with Stretched Link -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="stretched-link">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+//////////////////////////////////////////////
+
+
+Explanation:
+- `.stretched-link`: The anchor tag with this class stretches to cover the entire card body, making the whole card clickable.
+
+This utility class enhances the usability of clickable elements by extending the clickable area, providing a more user-friendly experience.
