@@ -32,6 +32,7 @@ In Bootstrap, position utility classes are used to control the placement of elem
 
 These positioning utilities help in achieving specific layout designs and enhancing the overall user interface and experience.
 
+# ---------------------------------------------------------------------------- #
 
 In Bootstrap 5, the position utility classes allow you to control the positioning of an element. Here is a list of the available position classes:
 
