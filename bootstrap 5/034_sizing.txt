@@ -1,6 +1,6 @@
 In Bootstrap 5, sizing utility classes help you control the width and height of elements. Here is a list of the available sizing classes:
 
-Width Classes:
+# ------------------------------ Width Classes: ------------------------------ #
 - `w-25` - Sets the width to 25%.
 - `w-50` - Sets the width to 50%.
 - `w-75` - Sets the width to 75%.
@@ -10,7 +10,7 @@ Width Classes:
 - `w-max` - Sets the width to the maximum content size.
 - `mw-100` - Sets the max-width to 100%.
 
-Height Classes:
+# ------------------------------ Height Classes: ----------------------------- #
 - `h-25` - Sets the height to 25%.
 - `h-50` - Sets the height to 50%.
 - `h-75` - Sets the height to 75%.
@@ -19,22 +19,22 @@ Height Classes:
 - `h-min` - Sets the height to the minimum content size.
 - `h-max` - Sets the height to the maximum content size.
 
-Viewport Width Classes:
+# -------------------------- Viewport Width Classes: ------------------------- #
 - `vw-100` - Sets the width to 100% of the viewport width.
 
-Viewport Height Classes:
+# ------------------------- Viewport Height Classes: ------------------------- #
 - `vh-100` - Sets the height to 100% of the viewport height.
 
-Min-Width Classes:
+# ---------------------------- Min-Width Classes: ---------------------------- #
 - `min-w-100` - Sets the minimum width to 100%.
 
-Min-Height Classes:
+# ---------------------------- Min-Height Classes: --------------------------- #
 - `min-h-100` - Sets the minimum height to 100%.
 
-Max-Width Classes:
+# ---------------------------- Max-Width Classes: ---------------------------- #
 - `max-w-100` - Sets the maximum width to 100%.
 
-Max-Height Classes
+# ---------------------------- Max-Height Classes: --------------------------- #
 - `max-h-100` - Sets the maximum height to 100%.
 
 These classes can be used to quickly size elements in a responsive way. For example:
