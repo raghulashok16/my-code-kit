@@ -1,24 +1,24 @@
 Here are some practical uses of range inputs in Bootstrap 5:
 
-1. **Volume Control:**
+1. Volume Control:
    - Used to adjust the volume in media players.
 
-2. **Brightness Adjustment:**
+2. Brightness Adjustment:
    - Allows users to adjust the brightness of a display or element.
 
-3. **Color Picker:**
+3. Color Picker:
    - Used for selecting color values, such as adjusting RGB sliders.
 
-4. **Form Inputs:**
+4. Form Inputs:
    - Useful for setting values within a specific range, like price ranges in product searches.
 
-5. **Progress Tracking:**
+5. Progress Tracking:
    - Can be used to show progress in tasks or steps in a multi-step form.
 
-6. **Gaming Controls:**
+6. Gaming Controls:
    - Useful for adjusting control sensitivity or setting game difficulty levels.
 
-7. **Image Filters:**
+7. Image Filters:
    - Used to adjust image filters like contrast, saturation, and blur in photo editing applications.
 
 These examples demonstrate the versatility and practical applications of range inputs in web development using Bootstrap 5.
@@ -161,15 +161,15 @@ html:
 
 
  Explanation:
-1. **Standard Range Input with Min and Max:**
+1. Standard Range Input with Min and Max:
     - The `min="0"` and `max="100"` attributes are used to set the range from 0 to 100.
     - The `.form-range` class is used to apply Bootstrap styling.
 
-2. **Custom Range Input with Min and Max:**
+2. Custom Range Input with Min and Max:
     - The `min="-50"` and `max="50"` attributes are used to set the range from -50 to 50.
     - The `.form-range` class is used to apply Bootstrap styling.
 
-3. **Disabled Range Input with Min and Max:**
+3. Disabled Range Input with Min and Max:
     - The `min="10"` and `max="90"` attributes are used to set the range from 10 to 90.
     - The `disabled` attribute is used to make the range input non-interactive.
     - The `.form-range` class is used to apply Bootstrap styling.
@@ -222,15 +222,15 @@ html:
 
 
 Explanation:
-1. **Standard Range Input with Min, Max, and Step:**
+1. Standard Range Input with Min, Max, and Step:
     - The `min="0"`, `max="100"`, and `step="10"` attributes are used to set the range from 0 to 100 with steps of 10.
     - The `.form-range` class is used to apply Bootstrap styling.
 
-2. **Custom Range Input with Min, Max, and Step:**
+2. Custom Range Input with Min, Max, and Step:
     - The `min="-50"`, `max="50"`, and `step="5"` attributes are used to set the range from -50 to 50 with steps of 5.
     - The `.form-range` class is used to apply Bootstrap styling.
 
-3. **Disabled Range Input with Min, Max, and Step:**
+3. Disabled Range Input with Min, Max, and Step:
     - The `min="10"`, `max="90"`, and `step="20"` attributes are used to set the range from 10 to 90 with steps of 20.
     - The `disabled` attribute is used to make the range input non-interactive.
     - The `.form-range` class is used to apply Bootstrap styling.
