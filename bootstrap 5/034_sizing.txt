@@ -1,0 +1,53 @@
+In Bootstrap 5, sizing utility classes help you control the width and height of elements. Here is a list of the available sizing classes:
+
+Width Classes:
+- `w-25` - Sets the width to 25%.
+- `w-50` - Sets the width to 50%.
+- `w-75` - Sets the width to 75%.
+- `w-100` - Sets the width to 100%.
+- `w-auto` - Sets the width to auto (default width behavior).
+- `w-min` - Sets the width to the minimum content size.
+- `w-max` - Sets the width to the maximum content size.
+- `mw-100` - Sets the max-width to 100%.
+
+Height Classes:
+- `h-25` - Sets the height to 25%.
+- `h-50` - Sets the height to 50%.
+- `h-75` - Sets the height to 75%.
+- `h-100` - Sets the height to 100%.
+- `h-auto` - Sets the height to auto (default height behavior).
+- `h-min` - Sets the height to the minimum content size.
+- `h-max` - Sets the height to the maximum content size.
+
+Viewport Width Classes:
+- `vw-100` - Sets the width to 100% of the viewport width.
+
+Viewport Height Classes:
+- `vh-100` - Sets the height to 100% of the viewport height.
+
+Min-Width Classes:
+- `min-w-100` - Sets the minimum width to 100%.
+
+Min-Height Classes:
+- `min-h-100` - Sets the minimum height to 100%.
+
+Max-Width Classes:
+- `max-w-100` - Sets the maximum width to 100%.
+
+Max-Height Classes
+- `max-h-100` - Sets the maximum height to 100%.
+
+These classes can be used to quickly size elements in a responsive way. For example:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="w-50 h-25">
+  This div is 50% wide and 25% tall.
+</div>
+<div class="w-100">
+  This div is 100% wide.
+</div>
+//////////////////////////////////////////////
+
+
+You can refer to the [Bootstrap 5 documentation](https://getbootstrap.com/docs/5.0/utilities/sizing/) for more details on these classes and examples of their usage.
