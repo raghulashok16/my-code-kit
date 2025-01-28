@@ -1,33 +1,33 @@
 Certainly! Here are some practical uses of the `container` class in Bootstrap 5:
 
-1. **Responsive Layouts:**
+1. Responsive Layouts:
    - The `container` class provides a responsive fixed-width container that adapts to different screen sizes, ensuring your content is properly aligned and readable on all devices.
 
-2. **Centering Content:**
+2. Centering Content:
    - Use `container` to center your content horizontally within the viewport, providing a clean and balanced layout.
 
-3. **Grid System:**
+3. Grid System:
    - The `container` class is essential for using Bootstrap's grid system, serving as the parent element for rows and columns to create structured layouts.
 
-4. **Padding and Margins:**
+4. Padding and Margins:
    - Containers automatically include padding and margins to ensure that content doesn't touch the edges of the viewport, maintaining a neat and professional appearance.
 
-5. **Consistent Widths:**
+5. Consistent Widths:
    - Use `container` to ensure consistent widths for sections of your website, such as headers, footers, and main content areas, providing a uniform look and feel.
 
-6. **Fluid Containers:**
+6. Fluid Containers:
    - The `container-fluid` class can be used to create full-width containers that span the entire width of the viewport, ideal for creating fluid layouts and sections that require maximum width.
 
-7. **Nested Containers:**
+7. Nested Containers:
    - Containers can be nested to create complex layouts, allowing for more control over the spacing and alignment of different sections within a page.
 
-8. **Hero Sections:**
+8. Hero Sections:
    - Use `container` to wrap hero sections, ensuring that large, impactful content is properly centered and spaced within the viewport.
 
-9. **Forms and Inputs:**
+9. Forms and Inputs:
    - Containers help organize forms and input fields within a structured layout, making them more user-friendly and visually appealing.
 
-10. **Navigation Bars:**
+10. Navigation Bars:
     - Use `container` to wrap navigation bars, ensuring they are responsive and properly aligned within the page.
 
 These examples illustrate the versatility and practical applications of the `container` class in various web development scenarios using Bootstrap 5.
