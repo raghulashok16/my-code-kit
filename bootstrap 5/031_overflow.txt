@@ -1,0 +1,30 @@
+In Bootstrap 5, the overflow utility classes allow you to control the overflow behavior of an element's content. Here is a list of the available overflow classes:
+
+1. `overflow-auto` - Adds scrollbars when needed.
+2. `overflow-hidden` - Hides overflow.
+3. `overflow-visible` - Default value; content is not clipped and may be rendered outside the element's box.
+4. `overflow-scroll` - Adds scrollbars always.
+
+Additionally, you can control overflow behavior for the x and y axes separately:
+
+1. `overflow-x-auto` - Adds horizontal scrollbars when needed.
+2. `overflow-x-hidden` - Hides horizontal overflow.
+3. `overflow-x-visible` - Default value for horizontal overflow; content is not clipped.
+4. `overflow-x-scroll` - Adds horizontal scrollbars always.
+
+5. `overflow-y-auto` - Adds vertical scrollbars when needed.
+6. `overflow-y-hidden` - Hides vertical overflow.
+7. `overflow-y-visible` - Default value for vertical overflow; content is not clipped.
+8. `overflow-y-scroll` - Adds vertical scrollbars always.
+
+These classes can be applied to any HTML element to control its overflow behavior. For example:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="overflow-auto">
+  This div will have scrollbars when the content overflows.
+</div>
+//////////////////////////////////////////////
+
+
+You can refer to the [Bootstrap 5 documentation](https://getbootstrap.com/docs/5.0/utilities/overflow/) for more details on these classes and examples of their usage.
