@@ -1,6 +1,6 @@
 In Bootstrap 5, spacing utility classes are used to control the padding and margin of elements. These classes are based on a scale from 0 to 5, where each number corresponds to a specific spacing value. Here is a list of the available spacing classes:
 
-Margin Classes:
+# ------------------------------ Margin Classes: ----------------------------- #
 - `m-0` - Removes all margins.
 - `m-1` - Sets margin to 0.25rem.
 - `m-2` - Sets margin to 0.5rem.
@@ -9,7 +9,7 @@ Margin Classes:
 - `m-5` - Sets margin to 3rem.
 - `m-auto` - Sets margin to auto (centers the element horizontally).
 
-Margin Classes by Side:
+# -------------------------- Margin Classes by Side: ------------------------- #
 - `mt-*` - Margin top
 - `me-*` - Margin end (right in LTR, left in RTL)
 - `mb-*` - Margin bottom
@@ -17,7 +17,7 @@ Margin Classes by Side:
 - `mx-*` - Margin left and right (horizontal margins)
 - `my-*` - Margin top and bottom (vertical margins)
 
-Padding Classes:
+# ----------------------------- Padding Classes: ----------------------------- #
 - `p-0` - Removes all padding.
 - `p-1` - Sets padding to 0.25rem.
 - `p-2` - Sets padding to 0.5rem.
@@ -25,7 +25,7 @@ Padding Classes:
 - `p-4` - Sets padding to 1.5rem.
 - `p-5` - Sets padding to 3rem.
 
-Padding Classes by Side:
+# ------------------------- Padding Classes by Side: ------------------------- #
 - `pt-*` - Padding top
 - `pe-*` - Padding end (right in LTR, left in RTL)
 - `pb-*` - Padding bottom
@@ -33,7 +33,7 @@ Padding Classes by Side:
 - `px-*` - Padding left and right (horizontal padding)
 - `py-*` - Padding top and bottom (vertical padding)
 
-Negative Margin Classes::
+# ------------------------- Negative Margin Classes:: ------------------------ #
 - `n1` - Sets negative margin to -0.25rem.
 - `n2` - Sets negative margin to -0.5rem.
 - `n3` - Sets negative margin to -1rem.
