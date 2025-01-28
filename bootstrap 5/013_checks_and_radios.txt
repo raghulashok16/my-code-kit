@@ -1,35 +1,35 @@
 Here are some practical uses of checkboxes and radio buttons in Bootstrap 5:
 
 # -------------------------------- Checkboxes: ------------------------------- #
-1. **Form Inputs:**
+1. Form Inputs:
    - Used to allow users to select multiple options from a list of choices, such as selecting multiple interests or hobbies.
 
-2. **To-Do Lists:**
+2. To-Do Lists:
    - Used to mark tasks as completed or pending in to-do list applications.
 
-3. **Settings and Preferences:**
+3. Settings and Preferences:
    - Used to enable or disable different settings or preferences within an application, such as email notifications or privacy settings.
 
-4. **Filters:**
+4. Filters:
    - Used in e-commerce websites to filter products based on multiple criteria, such as size, color, and brand.
 
-5. **Agreements:**
+5. Agreements:
    - Used to confirm acceptance of terms and conditions, privacy policies, or other agreements.
 
 # ------------------------------ Radio Buttons: ------------------------------ #
-1. **Form Inputs:**
+1. Form Inputs:
    - Used to allow users to select one option from a list of choices, such as choosing a gender or selecting a subscription plan.
 
-2. **Surveys and Polls:**
+2. Surveys and Polls:
    - Used to gather user preferences or opinions where only one answer is allowed per question.
 
-3. **Settings and Preferences:**
+3. Settings and Preferences:
    - Used to select one option from mutually exclusive settings, such as choosing a default language or selecting a theme.
 
-4. **Payment Options:**
+4. Payment Options:
    - Used in checkout forms to select a single payment method, such as credit card, PayPal, or bank transfer.
 
-5. **Quizzes:**
+5. Quizzes:
    - Used to select the correct answer from multiple-choice questions in quizzes or tests.
 
 These examples illustrate how checkboxes and radio buttons can be effectively used in various scenarios to enhance user interaction and data collection.
