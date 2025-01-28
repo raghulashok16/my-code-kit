@@ -1,26 +1,26 @@
 In Bootstrap 5, breakpoints are used to create responsive designs that adapt to different screen sizes. Here are the default breakpoint sizes:
 
-1. **Extra Small (xs):**
+1. Extra Small (xs):
    - Applies to screens less than 576px wide.
    - No specific class for this breakpoint; use the default (e.g., `.col`).
 
-2. **Small (sm):**
+2. Small (sm):
    - Applies to screens ≥ 576px wide.
    - Class suffix: `-sm-` (e.g., `.col-sm-4`).
 
-3. **Medium (md):**
+3. Medium (md):
    - Applies to screens ≥ 768px wide.
    - Class suffix: `-md-` (e.g., `.col-md-4`).
 
-4. **Large (lg):**
+4. Large (lg):
    - Applies to screens ≥ 992px wide.
    - Class suffix: `-lg-` (e.g., `.col-lg-4`).
 
-5. **Extra Large (xl):**
+5. Extra Large (xl):
    - Applies to screens ≥ 1200px wide.
    - Class suffix: `-xl-` (e.g., `.col-xl-4`).
 
-6. **Extra Extra Large (xxl):**
+6. Extra Extra Large (xxl):
    - Applies to screens ≥ 1400px wide.
    - Class suffix: `-xxl-` (e.g., `.col-xxl-4`).
 
