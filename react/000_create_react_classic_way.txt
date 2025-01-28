@@ -2,13 +2,13 @@ To install React in a classic way, you can use the create-react-app command-line
 
 Here are the steps to install and set up a new React project using create-react-app:
 
-# ------------------------------ Prerequisites: ------------------------------ #
+Prerequisites:
     1. Make sure you have Node.js and npm (Node Package Manager) installed on your machine.
     2. You can download and install them from nodejs.org.
 
 # -------------------------- Steps to Install React: ------------------------- #
 
-# --------------- Install create-react-app globally (optional): -------------- #
+Install create-react-app globally (optional):
 This step is optional because npx can be used to run create-react-app without installing it globally. However, if you prefer, you can install it globally.
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -21,7 +21,7 @@ Use the npx command (which comes with npm 5.2+ and higher) to create a new React
 npx create-react-app my-app
 //////////////////////////////////////////////
 
-# -------------------- Navigate to the project directory: -------------------- #
+Navigate to the project directory:
 Change the directory to your new React project.
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -36,7 +36,7 @@ npm start
 
 This command starts the development server and opens the app in your default web browser at http://localhost:3000. The page will automatically reload if you make changes to the code.
 
-# ------------------------ Default Project Structure: ------------------------ #
+Default Project Structure:
 After running these commands, your project directory will have the following structure:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 code
@@ -58,7 +58,7 @@ my-app
 └── yarn.lock or package-lock.json
 //////////////////////////////////////////////
 
-# --------------------------------- Summary: --------------------------------- #
+Summary:
     1. package.json: Lists the project dependencies and scripts.
     2. public/index.html: The main HTML file that is served.
     3. src/index.js: The JavaScript entry point.
