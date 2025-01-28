@@ -1,0 +1,37 @@
+In Bootstrap 5, the shadow utility classes allow you to add box shadows to elements. Here is a list of the available shadow classes:
+
+1. No shadow:
+   - `shadow-none` - Removes any existing shadow from the element.
+
+2. Small shadow:
+   - `shadow-sm` - Adds a small shadow to the element.
+
+3. Regular shadow:
+   - `shadow` - Adds a regular shadow to the element.
+
+4. Large shadow:
+   - `shadow-lg` - Adds a larger shadow to the element.
+
+These classes can be applied to any HTML element to control its shadow. For example:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="shadow-none">
+  This div has no shadow.
+</div>
+
+<div class="shadow-sm">
+  This div has a small shadow.
+</div>
+
+<div class="shadow">
+  This div has a regular shadow.
+</div>
+
+<div class="shadow-lg">
+  This div has a large shadow.
+</div>
+//////////////////////////////////////////////
+
+
+You can refer to the [Bootstrap 5 documentation](https://getbootstrap.com/docs/5.0/utilities/shadows/) for more details on these classes and examples of their usage.
