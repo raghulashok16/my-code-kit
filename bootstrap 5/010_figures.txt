@@ -1,27 +1,27 @@
 Certainly! Here are some practical uses of figures in Bootstrap 5:
 
-1. **Image Captions:**
+1. Image Captions:
    - Figures are used to display images with captions, providing context or additional information about the image.
 
-2. **Photo Galleries:**
+2. Photo Galleries:
    - Used in creating photo galleries where each image can have a descriptive caption.
 
-3. **Blog Posts:**
+3. Blog Posts:
    - Figures can be used to include images with captions in blog posts, enhancing the visual appeal and providing relevant information.
 
-4. **Product Displays:**
+4. Product Displays:
    - In e-commerce websites, figures can be used to showcase product images along with brief descriptions or prices.
 
-5. **Portfolios:**
+5. Portfolios:
    - Figures are useful in portfolio websites to display project images with captions describing the project details.
 
-6. **Educational Content:**
+6. Educational Content:
    - Figures can be used to present diagrams, charts, or illustrations with explanatory captions in educational content.
 
-7. **News Articles:**
+7. News Articles:
    - News websites can use figures to display images with captions that provide additional context or details about the news story.
 
-8. **Testimonials:**
+8. Testimonials:
    - Figures can be used to display user or client photos along with their testimonials or quotes.
 
 These examples demonstrate the versatility and practical applications of figures in various web development scenarios using Bootstrap 5.
