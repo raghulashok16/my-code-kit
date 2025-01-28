@@ -1,0 +1,19 @@
+In Bootstrap 5, the opacity utility classes allow you to set the opacity of an element. Here is a list of the available opacity classes:
+
+1. `opacity-0` - Sets the opacity to 0 (fully transparent)
+2. `opacity-25` - Sets the opacity to 0.25
+3. `opacity-50` - Sets the opacity to 0.50
+4. `opacity-75` - Sets the opacity to 0.75
+5. `opacity-100` - Sets the opacity to 1 (fully opaque)
+
+These classes can be applied to any HTML element to adjust its opacity. For example:
+
+html:
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<div class="opacity-50">
+  This div has 50% opacity.
+</div>
+//////////////////////////////////////////////
+
+
+You can refer to the [Bootstrap 5 documentation](https://getbootstrap.com/docs/5.0/utilities/opacity/) for more details on these classes and examples of their usage.
