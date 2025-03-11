@@ -18,17 +18,17 @@ This property specifies what kind of line decoration to use. Possible values are
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 /* Example */
-.underline {
-    text-decoration-line: underline;
-}
+    .underline {
+        text-decoration-line: underline;
+    }
 
-.overline {
-    text-decoration-line: overline;
-}
+    .overline {
+        text-decoration-line: overline;
+    }
 
-.line-through {
-    text-decoration-line: line-through;
-}
+    .line-through {
+        text-decoration-line: line-through;
+    }
 //////////////////////////////////////////////
 
 # --------------------------- text-decoration-style -------------------------- #
@@ -42,25 +42,25 @@ This property specifies the style of the line used for decoration. Possible valu
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 /* Example */
-.solid {
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-}
+    .solid {
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+    }
 
-.dotted {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-}
+    .dotted {
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+    }
 
-.dashed {
-    text-decoration-line: underline;
-    text-decoration-style: dashed;
-}
+    .dashed {
+        text-decoration-line: underline;
+        text-decoration-style: dashed;
+    }
 
-.wavy {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-}
+    .wavy {
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
 //////////////////////////////////////////////
 
 # --------------------------- text-decoration-color -------------------------- #
@@ -69,15 +69,15 @@ This property specifies the color of the decoration line.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 /* Example */
-.red-underline {
-    text-decoration-line: underline;
-    text-decoration-color: red;
-}
+    .red-underline {
+        text-decoration-line: underline;
+        text-decoration-color: red;
+    }
 
-.blue-underline {
-    text-decoration-line: underline;
-    text-decoration-color: blue;
-}
+    .blue-underline {
+        text-decoration-line: underline;
+        text-decoration-color: blue;
+    }
 //////////////////////////////////////////////
 
 # ------------------------- text-decoration Shorthand ------------------------ #
@@ -86,9 +86,9 @@ You can combine all these properties using the shorthand text-decoration propert
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 /* Example */
-.complete-decoration {
-    text-decoration: underline dotted red;
-}
+    .complete-decoration {
+        text-decoration: underline dotted red;
+    }
 //////////////////////////////////////////////
 
 # ---------------------------------- Example --------------------------------- #

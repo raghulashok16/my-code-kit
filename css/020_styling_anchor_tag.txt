@@ -5,28 +5,28 @@ Styling anchor (<a>) tags in CSS is a common task to improve the appearance and 
 You can change the color of the link text using the color property.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-a {
-    color: blue; /* Changes the link color to blue */
-}
+    a {
+        color: blue; /* Changes the link color to blue */
+    }
 //////////////////////////////////////////////
 
 2. Removing Underline:
 By default, links are underlined. You can remove the underline using the text-decoration property.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-a {
-    text-decoration: none; /* Removes the underline */
-}
+    a {
+        text-decoration: none; /* Removes the underline */
+    }
 //////////////////////////////////////////////
 
 3. Hover Effects:
 You can change the appearance of a link when a user hovers over it using the :hover pseudo-class.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-a:hover {
-    color: red; /* Changes the link color to red when hovered */
-    text-decoration: underline; /* Adds an underline on hover */
-}
+    a:hover {
+        color: red; /* Changes the link color to red when hovered */
+        text-decoration: underline; /* Adds an underline on hover */
+    }
 //////////////////////////////////////////////
 
 # ----------------------------- Advanced Styling ----------------------------- #
@@ -34,51 +34,51 @@ a:hover {
 You can style links differently based on their state using pseudo-classes like :link, :visited, :hover, and :active.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-a:link {
-    color: blue; /* Unvisited link */
-}
+    a:link {
+        color: blue; /* Unvisited link */
+    }
 
-a:visited {
-    color: purple; /* Visited link */
-}
+    a:visited {
+        color: purple; /* Visited link */
+    }
 
-a:hover {
-    color: red; /* Mouse over link */
-}
+    a:hover {
+        color: red; /* Mouse over link */
+    }
 
-a:active {
-    color: orange; /* Selected link */
-}
+    a:active {
+        color: orange; /* Selected link */
+    }
 //////////////////////////////////////////////
 
 2. Button-Like Links:
 You can style anchor tags to look like buttons.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-a.button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: white;
-    background-color: green;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-}
+    a.button {
+        display: inline-block;
+        padding: 10px 20px;
+        color: white;
+        background-color: green;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
 
-a.button:hover {
-    background-color: darkgreen;
-}
+    a.button:hover {
+        background-color: darkgreen;
+    }
 //////////////////////////////////////////////
 
 3. Icon Links:
 You can add icons to links using pseudo-elements like ::before or ::after.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-a.icon-link::before {
-    content: url('icon.png'); /* Replace with your icon URL */
-    margin-right: 5px;
-    vertical-align: middle;
-}
+    a.icon-link::before {
+        content: url('icon.png'); /* Replace with your icon URL */
+        margin-right: 5px;
+        vertical-align: middle;
+    }
 //////////////////////////////////////////////
 
 # ---------------------------------- Example --------------------------------- #

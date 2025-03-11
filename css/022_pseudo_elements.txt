@@ -6,10 +6,10 @@ Pseudo-elements in CSS allow you to style specific parts of an element without t
 Inserts content before the content of an element.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-p::before {
-    content: "Note: ";
-    color: red;
-}
+    p::before {
+        content: "Note: ";
+        color: red;
+    }
 //////////////////////////////////////////////
 
 2. ::after:
@@ -17,10 +17,10 @@ p::before {
 Inserts content after the content of an element.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-p::after {
-    content: " Read more...";
-    color: blue;
-}
+    p::after {
+        content: " Read more...";
+        color: blue;
+    }
 //////////////////////////////////////////////
 
 3. ::first-letter:
@@ -28,10 +28,10 @@ p::after {
 Styles the first letter of the first line of a block-level element.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-p::first-letter {
-    font-size: 2em;
-    color: green;
-}
+    p::first-letter {
+        font-size: 2em;
+        color: green;
+    }
 //////////////////////////////////////////////
 
 4. ::first-line:
@@ -39,9 +39,9 @@ p::first-letter {
 Styles the first line of a block-level element.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-p::first-line {
-    font-weight: bold;
-}
+    p::first-line {
+        font-weight: bold;
+    }
 //////////////////////////////////////////////
 
 5. ::selection:
@@ -49,10 +49,10 @@ p::first-line {
 Styles the portion of an element that is selected by the user.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-::selection {
-    background: yellow;
-    color: black;
-}
+    ::selection {
+        background: yellow;
+        color: black;
+    }
 //////////////////////////////////////////////
 
 6. ::placeholder:
@@ -60,10 +60,10 @@ CSS
 Styles the placeholder text of an <input> or <textarea> element.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-input::placeholder {
-    color: gray;
-    font-style: italic;
-}
+    input::placeholder {
+        color: gray;
+        font-style: italic;
+    }
 //////////////////////////////////////////////
 
 7. ::marker:
@@ -71,10 +71,10 @@ input::placeholder {
 Styles the markers (such as bullets) of list items.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-li::marker {
-    color: red;
-    font-size: 1.5em;
-}
+    li::marker {
+        color: red;
+        font-size: 1.5em;
+    }
 //////////////////////////////////////////////
 
 8. ::backdrop:
@@ -82,9 +82,9 @@ li::marker {
 Styles the backdrop of an element, typically used with full-screen elements.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-::backdrop {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+    ::backdrop {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 //////////////////////////////////////////////
 
 9. ::file-selector-button:
@@ -92,12 +92,12 @@ CSS
 Styles the button of an <input type="file"> element.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-input[type="file"]::file-selector-button {
-    background: blue;
-    color: white;
-    border: none;
-    padding: 5px;
-}
+    input[type="file"]::file-selector-button {
+        background: blue;
+        color: white;
+        border: none;
+        padding: 5px;
+    }
 //////////////////////////////////////////////
 
 # ------------------------------- Example Usage ------------------------------ #

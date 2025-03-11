@@ -17,20 +17,20 @@ In HTML, elements are categorized into two main types based on their display beh
 # --------------------------------- Example: --------------------------------- #
 HTML:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block Elements Example</title>
-</head>
-<body>
-    <div style="background-color: lightblue;">
-        <h1>Heading 1</h1>
-        <p>This is a paragraph inside a block-level div element.</p>
-    </div>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Block Elements Example</title>
+    </head>
+    <body>
+        <div style="background-color: lightblue;">
+            <h1>Heading 1</h1>
+            <p>This is a paragraph inside a block-level div element.</p>
+        </div>
+    </body>
+    </html>
 //////////////////////////////////////////////
 
 # ------------------------------ Inline Elements ----------------------------- #
@@ -50,18 +50,18 @@ HTML:
 # --------------------------------- Example: --------------------------------- #
 HTML:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline Elements Example</title>
-</head>
-<body>
-    <p>This is a paragraph with <span style="color: red;">an inline span element</span> inside it.</p>
-    <a href="#">This is an inline anchor element</a>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inline Elements Example</title>
+    </head>
+    <body>
+        <p>This is a paragraph with <span style="color: red;">an inline span element</span> inside it.</p>
+        <a href="#">This is an inline anchor element</a>
+    </body>
+    </html>
 //////////////////////////////////////////////
 
 # -------------------------------- Comparison -------------------------------- #

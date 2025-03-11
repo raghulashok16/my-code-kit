@@ -5,15 +5,15 @@ You can set all four sides (top, right, bottom, and left) of the margin or paddi
 
 CSS:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/* Margin shorthand */
-margin: 10px 20px 30px 40px; /* top right bottom left */
-margin: 10px 20px; /* top & bottom, right & left */
-margin: 10px; /* all sides */
+    /* Margin shorthand */
+    margin: 10px 20px 30px 40px; /* top right bottom left */
+    margin: 10px 20px; /* top & bottom, right & left */
+    margin: 10px; /* all sides */
 
-/* Padding shorthand */
-padding: 10px 20px 30px 40px; /* top right bottom left */
-padding: 10px 20px; /* top & bottom, right & left */
-padding: 10px; /* all sides */
+    /* Padding shorthand */
+    padding: 10px 20px 30px 40px; /* top right bottom left */
+    padding: 10px 20px; /* top & bottom, right & left */
+    padding: 10px; /* all sides */
 //////////////////////////////////////////////
 
 # --------------------------------- 2. Border -------------------------------- #
@@ -21,14 +21,14 @@ The border shorthand property allows you to set the width, style, and color of a
 
 CSS:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/* Border shorthand */
-border: 2px solid black; /* width style color */
+    /* Border shorthand */
+    border: 2px solid black; /* width style color */
 
-/* Individual sides */
-border-top: 2px solid black;
-border-right: 2px solid black;
-border-bottom: 2px solid black;
-border-left: 2px solid black;
+    /* Individual sides */
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
 //////////////////////////////////////////////
 
 # ------------------------------- 3. Background ------------------------------ #
@@ -36,15 +36,15 @@ The background shorthand property allows you to set multiple background-related 
 
 CSS:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/* Background shorthand */
-background: #f3f3f3 url('image.jpg') no-repeat center center / cover;
-This sets:
+    /* Background shorthand */
+    background: #f3f3f3 url('image.jpg') no-repeat center center / cover;
+    This sets:
 
-Background color: #f3f3f3
-Background image: url('image.jpg')
-Background repeat: no-repeat
-Background position: center center
-Background size: cover
+    Background color: #f3f3f3
+    Background image: url('image.jpg')
+    Background repeat: no-repeat
+    Background position: center center
+    Background size: cover
 //////////////////////////////////////////////
 
 # ---------------------------------- 4. Font --------------------------------- #
@@ -52,16 +52,16 @@ The font shorthand property allows you to set multiple font-related properties i
 
 CSS:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/* Font shorthand */
-font: italic small-caps bold 16px/30px Georgia, serif;
-This sets:
+    /* Font shorthand */
+    font: italic small-caps bold 16px/30px Georgia, serif;
+    This sets:
 
-Font style: italic
-Font variant: small-caps
-Font weight: bold
-Font size: 16px
-Line height: 30px
-Font family: Georgia, serif
+    Font style: italic
+    Font variant: small-caps
+    Font weight: bold
+    Font size: 16px
+    Line height: 30px
+    Font family: Georgia, serif
 //////////////////////////////////////////////
 
 # ------------------------------- 5. List-style ------------------------------ #
@@ -69,8 +69,9 @@ The list-style shorthand property allows you to set list style type, image, and 
 
 CSS:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/* List-style shorthand */
-list-style: square url('bullet.png') inside;
+    /* List-style shorthand */
+    list-style: square url('bullet.png') inside;
+//////////////////////////////////////////////
 This sets:
 
 List style type: square
@@ -78,19 +79,18 @@ List style image: url('bullet.png')
 List style position: inside
 Example Usage
 Here is an example of using shorthand properties in CSS:
-//////////////////////////////////////////////
 
 CSS:
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/* Example of shorthand properties */
-.container {
-    margin: 10px 20px; /* top & bottom 10px, right & left 20px */
-    padding: 15px; /* all sides 15px */
-    border: 1px solid #ccc; /* all sides 1px solid #ccc */
-    background: #fff url('bg.jpg') no-repeat center center / cover;
-    font: italic bold 14px/1.5 Arial, sans-serif;
-    list-style: none;
-}
+    /* Example of shorthand properties */
+    .container {
+        margin: 10px 20px; /* top & bottom 10px, right & left 20px */
+        padding: 15px; /* all sides 15px */
+        border: 1px solid #ccc; /* all sides 1px solid #ccc */
+        background: #fff url('bg.jpg') no-repeat center center / cover;
+        font: italic bold 14px/1.5 Arial, sans-serif;
+        list-style: none;
+    }
 //////////////////////////////////////////////
 
 

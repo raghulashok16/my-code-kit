@@ -7,9 +7,9 @@ The display property in CSS specifies how an element is displayed on the web pag
 - Examples: <div>, <h1>, <p>
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-.block {
-    display: block;
-}
+    .block {
+        display: block;
+    }
 //////////////////////////////////////////////
 
 2. display: inline;:
@@ -18,9 +18,9 @@ CSS
 - Examples: <span>, <a>, <strong>
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-.inline {
-    display: inline;
-}
+    .inline {
+        display: inline;
+    }
 //////////////////////////////////////////////
 
 3. display: inline-block;:
@@ -28,9 +28,9 @@ CSS
 - It flows with text like an inline element but can have a width and height like a block element.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-.inline-block {
-    display: inline-block;
-}
+    .inline-block {
+        display: inline-block;
+    }
 //////////////////////////////////////////////
 
 4. display: none;:
@@ -38,9 +38,9 @@ CSS
 - It does not occupy any space on the page.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-.hidden {
-    display: none;
-}
+    .hidden {
+        display: none;
+    }
 //////////////////////////////////////////////
 
 5. display: flex;:
@@ -48,9 +48,9 @@ CSS
 - Child elements (flex items) are arranged according to flexbox rules.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-.flex-container {
-    display: flex;
-}
+    .flex-container {
+        display: flex;
+    }
 //////////////////////////////////////////////
 
 6. display: grid;:
@@ -58,9 +58,9 @@ CSS
 - Child elements (grid items) are arranged according to grid rules.
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-.grid-container {
-    display: grid;
-}
+    .grid-container {
+        display: grid;
+    }
 //////////////////////////////////////////////
 
 # ---------------------------------- Example --------------------------------- #

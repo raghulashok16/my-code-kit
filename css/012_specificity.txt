@@ -31,23 +31,23 @@ Consider the following CSS rules:
 
 CSS
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/* Type selector - specificity: 0001 */
-p {
-    color: blue;
-}
+    /* Type selector - specificity: 0001 */
+    p {
+        color: blue;
+    }
 
-/* Class selector - specificity: 0010 */
-.intro {
-    color: green;
-}
+    /* Class selector - specificity: 0010 */
+    .intro {
+        color: green;
+    }
 
-/* ID selector - specificity: 0100 */
-#main {
-    color: red;
-}
+    /* ID selector - specificity: 0100 */
+    #main {
+        color: red;
+    }
 
-/* Inline style - specificity: 1000 */
-<p style="color: purple;">This is a paragraph.</p>
+    /* Inline style - specificity: 1000 */
+    <p style="color: purple;">This is a paragraph.</p>
 //////////////////////////////////////////////
 
 In this example:
