@@ -1,0 +1,48 @@
+# ------------------------------ Selectors ❤️‍🔥 ----------------------------- #
+    - ✅ What it is: A selector is like a "target" in CSS. It tells the browser which part of the webpage you want to style.
+Examples:
+  - ✅ `h1` (targets all `<h1>` headings)
+  - ✅ `.class-name` (targets elements with a specific class)
+  - ✅ `#id-name` (targets an element with a specific ID)
+  - ✅ `div p` (targets all `<p>` tags inside `<div>` tags)
+
+
+# ----------------------------- Properties ❤️‍🔥 ----------------------------- #
+    - ✅ What it is: A property is the specific thing you want to change about the selected element. It defines what aspect of the element you want to style.
+
+Examples:
+  - ✅ `color` (changes the text color)
+  - ✅ `font-size` (changes the size of the text)
+  - ✅ `background-color` (changes the background color)
+  - ✅ `margin` (adds space around the element)
+
+
+# ------------------------------- Values ❤️‍🔥 ------------------------------- #
+    - ✅ What it is: A value is the setting you apply to a property. It defines how the property should look or behave.
+
+Examples:
+  - ✅ `color: red;` (the value `red` is applied to the `color` property)
+  - ✅ `font-size: 16px;` (the value `16px` is applied to the `font-size` property)
+  - ✅ `background-color: blue;` (the value `blue` is applied to the `background-color` property)
+  - ✅ `margin: 10px;` (the value `10px` is applied to the `margin` property)
+
+
+
+# ----------------------- Putting it all together ❤️‍🔥 ---------------------- #
+Example:
+🚩🚩🚩🚩
+  h1 {
+    color: blue;
+    font-size: 24px;
+  }
+⚡⚡⚡⚡
+  
+  - ✅ `h1` is the selector (targets all `<h1>` elements).
+  - ✅ `color` and `font-size` are the properties (what you want to change).
+  - ✅ `blue` and `24px` are the values (how you want to change them).
+
+
+# ------------------------------ In short: ❤️‍🔥 ----------------------------- #
+- ✅ Selector: *What* to style.
+- ✅ Property: *What aspect* to change.
+- ✅ Value: *How* to change it.

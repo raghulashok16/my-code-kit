@@ -1,15 +1,14 @@
 To import a Google Font into your CSS, you can use the @import rule or the <link> tag in the HTML document. Both methods are straightforward and allow you to use custom fonts from Google Fonts in your web project.
 
 # ------------------ Method 1: Using the <link> Tag in HTML ------------------ #
-1. Go to Google Fonts.
-2. Select the font you want to use.
-3. Click on the "Select this style" button.
-4. Copy the <link> tag provided.
-5. Paste the <link> tag within the <head> section of your HTML document.
+1. ✅ Go to Google Fonts.
+2. ✅ Select the font you want to use.
+3. ✅ Click on the "Select this style" button.
+4. ✅ Copy the <link> tag provided.
+5. ✅ Paste the <link> tag within the <head> section of your HTML document.
 
 Example:
-HTML
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+🚩🚩🚩🚩
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -22,30 +21,32 @@ HTML
     <h1>Hello, World!</h1>
   </body>
   </html>
-//////////////////////////////////////////////
+⚡⚡⚡⚡
+
 
 Use the font in your CSS:
 CSS
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+🚩🚩🚩🚩
   body {
     font-family: 'Roboto', sans-serif;
   }
-//////////////////////////////////////////////
+⚡⚡⚡⚡
+
 
 # ------------------ Method 2: Using the @import Rule in CSS ----------------- #
-1. Go to Google Fonts.
-2. Select the font you want to use.
-3. Click on the "Select this style" button.
-4. Copy the @import URL provided.
-5. Paste the @import rule at the top of your CSS file.
+1. ✅ Go to Google Fonts.
+2. ✅ Select the font you want to use.
+3. ✅ Click on the "Select this style" button.
+4. ✅ Copy the @import URL provided.
+5. ✅ Paste the @import rule at the top of your CSS file.
 Example:
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-  CSS
+🚩🚩🚩🚩
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
   body {
     font-family: 'Roboto', sans-serif;
   }
-//////////////////////////////////////////////
+⚡⚡⚡⚡
+
 
 Both methods will import the Google Font into your web project, allowing you to use it in your CSS styles.
