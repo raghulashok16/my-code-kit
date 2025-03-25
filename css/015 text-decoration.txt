@@ -1,0 +1,127 @@
+# ------------------ 📝 `text-decoration` Property Explained ----------------- #
+
+    - ✅ The `text-decoration` property in CSS is used to add decorative lines to text.
+    - ✅ It can be used to apply underlines, overlines, line-throughs, or even combine multiple decorations.
+    - ✅ Below is a detailed breakdown of its usage and values:
+
+
+
+# ---------------------- 🎯 Values of `text-decoration` ---------------------- #
+
+1. `none` 🚫
+   - ✅ Removes any text decoration.
+   - ✅ Example: `text-decoration: none;`
+   - ✅ Use case: Remove underlines from links or other elements.
+
+2. `underline` 🔗
+   - ✅ Adds a line below the text.
+   - ✅ Example: `text-decoration: underline;`
+   - ✅ Use case: Highlight links or emphasize text.
+
+3. `overline` 🔝
+   - ✅ Adds a line above the text.
+   - ✅ Example: `text-decoration: overline;`
+   - ✅ Use case: Decorative styling for headings or titles.
+
+4. `line-through` 🗑️
+   - ✅ Adds a line through the middle of the text (strikethrough).
+   - ✅ Example: `text-decoration: line-through;`
+   - ✅ Use case: Indicating deleted or outdated text.
+
+5. `underline overline` 🔗🔝
+   - ✅ Combines both underline and overline.
+   - ✅ Example: `text-decoration: underline overline;`
+   - ✅ Use case: Highlighting text with decorative lines above and below.
+
+6. `underline line-through` 🔗🗑️
+   - ✅ Combines underline and line-through.
+   - ✅ Example: `text-decoration: underline line-through;`
+   - ✅ Use case: Styling text with multiple decorations.
+
+7. `overline line-through` 🔝🗑️
+   - ✅ Combines overline and line-through.
+   - ✅ Example: `text-decoration: overline line-through;`
+   - ✅ Use case: Unique decorative styling.
+
+8. `underline overline line-through` 🔗🔝🗑️
+   - ✅ Combines all three decorations.
+   - ✅ Example: `text-decoration: underline overline line-through;`
+   - ✅ Use case: Experimental or creative text styling.
+
+
+
+# ------------------ 🎨 Sub-Properties of `text-decoration` ------------------ #
+
+The `text-decoration` property can also be broken down into more specific sub-properties for finer control:
+
+1. `text-decoration-line` 📏
+   - ✅ Specifies the type of decoration (e.g., `underline`, `overline`, `line-through`).
+   - ✅ Example: `text-decoration-line: underline;`
+
+2. `text-decoration-color` 🎨
+   - ✅ Sets the color of the decoration line.
+   - ✅ Example: `text-decoration-color: red;`
+
+3. `text-decoration-style` ✒️
+   - ✅ Defines the style of the decoration line (e.g., `solid`, `dotted`, `dashed`, `wavy`).
+   - ✅ Example: `text-decoration-style: wavy;`
+
+4. `text-decoration-thickness` 📐
+   - ✅ Controls the thickness of the decoration line.
+   - ✅ Example: `text-decoration-thickness: 2px;`
+
+
+
+# --------------------------- 🌟 Examples in Action -------------------------- #
+
+1. Basic Underline ❤️‍🔥
+🚩🚩🚩🚩
+   a {
+       text-decoration: underline;
+   }
+⚡⚡⚡⚡
+
+
+2. Wavy Red Underline ❤️‍🔥
+🚩🚩🚩🚩
+   h1 {
+       text-decoration: underline wavy red;
+   }
+⚡⚡⚡⚡
+
+
+3. Dotted Overline with Custom Thickness ❤️‍🔥
+🚩🚩🚩🚩
+   .title {
+       text-decoration: overline dotted blue;
+       text-decoration-thickness: 3px;
+   }
+⚡⚡⚡⚡
+
+4. Strikethrough with Green Color ❤️‍🔥
+🚩🚩🚩🚩
+   .old-price {
+       text-decoration: line-through green;
+   }
+⚡⚡⚡⚡ 
+
+5. Combining Multiple Decorations ❤️‍🔥
+🚩🚩🚩🚩
+   .fancy-text {
+       text-decoration: underline overline wavy purple;
+   }
+⚡⚡⚡⚡
+
+
+
+# ------------------------ 💡 Tips and Best Practices ------------------------ #
+    - ✅ Use `text-decoration: none;` to remove default underlines from links if needed.
+    - ✅ Combine `text-decoration` with other properties like `color` and `font-weight` for better visual appeal.
+    - ✅ Avoid overusing decorative styles, as they can make text harder to read.
+
+
+
+# ---------------------------- 🛠️ Browser Support --------------------------- #
+    - ✅ The `text-decoration` property is widely supported across all modern browsers.
+    - ✅ Sub-properties like `text-decoration-thickness` and `text-decoration-style` may have limited support in older browsers.
+
