@@ -1,0 +1,64 @@
+✅ In JavaScript, truthy and falsy values are non-boolean values that are treated as `true` or `false` when evaluated in a boolean context (like in `if` conditions, logical operators, etc.).
+
+Falsy Values (Evaluate to `false` in Boolean Context)🛩️🛩️
+✅ The following values are considered falsy in JavaScript:
+1. `false` (boolean `false`)
+2. `0` (number zero)
+3. `""` or `''` (empty string)
+4. `null`
+5. `undefined`
+6. `NaN` (Not a Number)
+7. `0n` (BigInt zero)
+
+✅ Example:
+🚩🚩🚩🚩
+if (0) {
+  console.log("This won't run"); // 0 is falsy
+} else {
+  console.log("0 is falsy"); // This runs
+}
+⚡⚡⚡⚡
+
+Truthy Values (Evaluate to `true` in Boolean Context)🛩️🛩️
+✅ Any value that is not falsy is truthy. Some common examples:
+- `true` (boolean `true`)
+- `"hello"` (non-empty string)
+- `42` (non-zero number)
+- `[]` (empty array)
+- `{}` (empty object)
+- `function() {}` (functions)
+- `new Date()`
+- `-1`, `3.14`, `"0"`, `"false"` (non-empty strings, even if they contain `"0"` or `"false"`)
+
+✅ Example:
+🚩🚩🚩🚩
+if ("hello") {
+  console.log("Non-empty strings are truthy"); // This runs
+}
+
+if ([]) {
+  console.log("Even an empty array is truthy!"); // This runs
+}
+⚡⚡⚡⚡
+
+Checking Truthy/Falsy Explicitly 🛩️🛩️
+✅ You can force a boolean check using `Boolean()` or the double negation (`!!`):
+🚩🚩🚩🚩
+console.log(Boolean(0));      // false (falsy)
+console.log(Boolean("abc"));  // true (truthy)
+
+console.log(!!null);          // false (falsy)
+console.log(!!{});            // true (truthy)
+⚡⚡⚡⚡
+
+Why This Matters? 🛩️🛩️
+✅ Understanding truthy/falsy values helps in writing concise conditions:
+🚩🚩🚩🚩
+let name = "";
+console.log(name || "Anonymous"); // "Anonymous" (since "" is falsy)
+
+let count = 0;
+if (!count) {
+  console.log("Count is zero or falsy"); // Runs because 0 is falsy
+}
+⚡⚡⚡⚡
