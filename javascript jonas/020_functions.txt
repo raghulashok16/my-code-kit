@@ -1,0 +1,71 @@
+Functions in JavaScript 🛩️🛩️
+✅ A function in JavaScript is a reusable block of code that performs a specific task or calculates a value.
+✅ Functions are fundamental building blocks in JavaScript that allow you to organize your code, avoid repetition, and create more modular programs.
+
+Basic Function Syntax 🛩️🛩️
+🚩🚩🚩🚩
+// Function declaration
+function functionName(parameters) {
+  // code to be executed
+  return result; // optional
+}
+
+// Function call
+functionName(arguments);
+⚡⚡⚡⚡
+
+Types of Functions in JavaScript 🛩️🛩️
+1.✅  Function Declarations:
+🚩🚩🚩🚩
+   function greet(name) {
+     return `Hello, ${name}!`;
+   }
+⚡⚡⚡⚡
+
+2.✅  Function Expressions:
+🚩🚩🚩🚩
+   const greet = function(name) {
+     return `Hello, ${name}!`;
+   };
+⚡⚡⚡⚡
+
+3.✅  Arrow Functions (ES6):
+🚩🚩🚩🚩
+   const greet = (name) => {
+     return `Hello, ${name}!`;
+   };
+   
+   // Or shorter form for single expression
+   const greet = name => `Hello, ${name}!`;
+⚡⚡⚡⚡
+
+4.✅  Immediately Invoked Function Expressions (IIFE):
+🚩🚩🚩🚩
+   (function() {
+     console.log("This runs immediately");
+   })();
+⚡⚡⚡⚡
+
+Key Features of JavaScript Functions 🛩️🛩️
+- Parameters/Arguments: Functions can accept input values
+- Return values: Functions can return output values (using `return`)
+- First-class citizens: Functions can be assigned to variables, passed as arguments, and returned from other functions
+- Scope: Functions create their own scope for variables
+- Hoisting: Function declarations are hoisted (can be called before they're defined)
+
+Example Usage 🛩️🛩️
+🚩🚩🚩🚩
+// Function to calculate area of a rectangle
+function calculateArea(width, height) {
+  return width * height;
+}
+
+const area = calculateArea(5, 10); // Returns 50
+console.log(area); // Output: 50
+
+// Arrow function equivalent
+const calculateAreaArrow = (width, height) => width * height;
+⚡⚡⚡⚡
+
+✅ Functions are essential for writing clean, maintainable, and efficient JavaScript code.
+✅ They help break down complex problems into smaller, manageable pieces.
