@@ -1,0 +1,44 @@
+In JavaScript, strict equality (`===`) and loose equality (`==`) are comparison operators used to check if two values are equal, but they behave differently in terms of type coercion.
+
+1. Strict Equality (`===`)🛩️🛩️
+- Checks both value and type.
+- No type conversion is performed.
+- Returns `true` only if both the value and type are the same.
+
+✅ Examples:
+🚩🚩🚩🚩
+5 === 5      // true (same value and type)
+5 === '5'    // false (number vs string)
+true === 1   // false (boolean vs number)
+null === undefined // false (different types)
+⚡⚡⚡⚡
+
+
+2. Loose Equality (`==`)🛩️🛩️
+- Checks value after type coercion (if types differ, JavaScript tries to convert them).
+- Can lead to unexpected results due to implicit conversion.
+
+✅ Examples:
+🚩🚩🚩🚩
+5 == 5      // true
+5 == '5'    // true (string '5' is converted to number 5)
+true == 1   // true (true is converted to 1)
+false == 0  // true (false is converted to 0)
+null == undefined // true (special case in JS)
+⚡⚡⚡⚡
+
+✅ Key Differences:
+| Comparison      | `===` (Strict) | `==` (Loose) |
+|----------------------|---------------|--------------|
+| Checks Type?         | Yes           | No (coerces types) |
+| `5 === '5'`          | `false`       | `true`       |
+| `0 === false`        | `false`       | `true`       |
+| `null === undefined` | `false`       | `true`       |
+
+✅ Best Practice:
+- Prefer `===` to avoid unexpected type coercion bugs.
+- Use `==` only when you explicitly need type coercion (rare cases).
+
+✅ Special Cases:
+- `NaN === NaN` → `false` (Use `Number.isNaN()` or `Object.is()` instead).
+- `Object.is()` is similar to `===`, but treats `NaN` and `±0` differently.
