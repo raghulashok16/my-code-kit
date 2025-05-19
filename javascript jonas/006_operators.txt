@@ -1,0 +1,92 @@
+JavaScript Operators 🛩️🛩️
+
+Here's a comprehensive list of operators in JavaScript, categorized by their functionality:
+
+✅ Arithmetic Operators
+- `+` Addition
+- `-` Subtraction
+- `*` Multiplication
+- `/` Division
+- `%` Remainder (Modulus)
+- `**` Exponentiation (ES2016)
+- `++` Increment
+- `--` Decrement
+- `+` Unary plus
+- `-` Unary negation
+
+✅ Assignment Operators
+- `=` Assignment
+- `+=` Addition assignment
+- `-=` Subtraction assignment
+- `*=` Multiplication assignment
+- `/=` Division assignment
+- `%=` Remainder assignment
+- `**=` Exponentiation assignment
+- `<<=` Left shift assignment
+- `>>=` Right shift assignment
+- `>>>=` Unsigned right shift assignment
+- `&=` Bitwise AND assignment
+- `|=` Bitwise OR assignment
+- `^=` Bitwise XOR assignment
+- `&&=` Logical AND assignment (ES2021)
+- `||=` Logical OR assignment (ES2021)
+- `??=` Logical nullish assignment (ES2021)
+
+✅ Comparison Operators
+- `==` Equal to
+- `!=` Not equal to
+- `===` Strict equal to
+- `!==` Strict not equal to
+- `>` Greater than
+- `<` Less than
+- `>=` Greater than or equal to
+- `<=` Less than or equal to
+
+✅ Logical Operators
+- `&&` Logical AND
+- `||` Logical OR
+- `!` Logical NOT
+- `??` Nullish coalescing (ES2020)
+
+✅ Bitwise Operators
+- `&` Bitwise AND
+- `|` Bitwise OR
+- `^` Bitwise XOR
+- `~` Bitwise NOT
+- `<<` Left shift
+- `>>` Sign-propagating right shift
+- `>>>` Zero-fill right shift
+
+✅ String Operators
+- `+` Concatenation
+- `+=` Concatenation assignment
+
+✅ Conditional (Ternary) Operator
+- `? :` Conditional operator (ternary)
+
+✅ Comma Operator
+- `,` Comma operator
+
+✅ Unary Operators
+- `delete` Deletes a property from an object
+- `typeof` Returns a string indicating the type
+- `void` Discards an expression's return value
+
+✅ Relational Operators
+- `in` Returns true if the specified property is in the object
+- `instanceof` Returns true if the object is an instance of the object type
+
+✅ Spread Syntax (ES2015+)
+- `...` Spread syntax for arrays and objects
+
+✅ Optional Chaining (ES2020)
+- `?.` Optional chaining operator
+
+✅ Grouping Operator
+- `()` Controls precedence of evaluation
+
+✅ New Operator
+- `new` Creates an instance of a user-defined object type
+
+✅ Operator Precedence
+JavaScript operators follow a specific order of precedence when evaluating expressions.
