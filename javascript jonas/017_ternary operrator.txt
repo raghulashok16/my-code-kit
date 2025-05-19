@@ -1,0 +1,59 @@
+Ternary Operator in JavaScript 🛩️🛩️
+
+✅ The ternary operator is a concise way to write conditional statements in JavaScript. It's the only JavaScript operator that takes three operands.
+
+✅ Syntax
+🚩🚩🚩🚩
+condition ? expressionIfTrue : expressionIfFalse
+⚡⚡⚡⚡
+
+How It Works 🛩️🛩️
+1. The `condition` is evaluated first
+2. If the condition is truthy, `expressionIfTrue` is executed
+3. If the condition is falsy, `expressionIfFalse` is executed
+
+Examples 🛩️🛩️
+
+✅ Basic Example
+🚩🚩🚩🚩
+const age = 20;
+const status = age >= 18 ? 'Adult' : 'Minor';
+console.log(status); // Output: 'Adult'
+⚡⚡⚡⚡
+
+✅ Assigning a value
+🚩🚩🚩🚩
+const isRaining = true;
+const action = isRaining ? 'Stay inside' : 'Go outside';
+console.log(action); // Output: 'Stay inside'
+⚡⚡⚡⚡
+
+✅ Inline usage
+🚩🚩🚩🚩
+const score = 85;
+console.log(`You ${score >= 60 ? 'passed' : 'failed'} the exam.`);
+// Output: "You passed the exam."
+⚡⚡⚡⚡
+
+✅ Nested ternary (not recommended for complex logic)
+🚩🚩🚩🚩
+const grade = score => 
+  score >= 90 ? 'A' :
+  score >= 80 ? 'B' :
+  score >= 70 ? 'C' :
+  score >= 60 ? 'D' : 'F';
+
+console.log(grade(85)); // Output: 'B'
+⚡⚡⚡⚡
+
+When to Use 🛩️🛩️
+- For simple conditional assignments
+- When you need a concise one-liner
+- For simple conditional rendering in JSX (React)
+
+When to Avoid 🛩️🛩️
+- For complex conditional logic (use if/else instead)
+- When it reduces code readability
+- When you need to execute multiple statements in each branch
+
+✅ The ternary operator is a powerful tool when used appropriately, but overuse or misuse can make code harder to read and maintain.
