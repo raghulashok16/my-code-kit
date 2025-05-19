@@ -1,0 +1,77 @@
+
+Type Conversion (Explicit Conversion) 🛩️🛩️
+✅ Type conversion is when you explicitly convert a value from one type to another using built-in functions or operators.
+
+Common Type Conversion Methods: 🛩️🛩️
+
+1.✅  String Conversion
+🚩🚩🚩🚩
+let num = 123;
+let str = String(num); // Explicitly convert to string
+console.log(typeof str); // "string"
+⚡⚡⚡⚡
+
+2.✅  Number Conversion
+🚩🚩🚩🚩
+let str = "123";
+let num = Number(str); // Explicitly convert to number
+console.log(typeof num); // "number"
+⚡⚡⚡⚡
+
+3.✅  Boolean Conversion
+🚩🚩🚩🚩
+let val = 1;
+let bool = Boolean(val); // Explicitly convert to boolean
+console.log(typeof bool); // "boolean"
+⚡⚡⚡⚡
+
+4.✅  parseInt() and parseFloat()
+🚩🚩🚩🚩
+let str = "123.45px";
+let intNum = parseInt(str); // 123 (integer)
+let floatNum = parseFloat(str); // 123.45 (float)
+⚡⚡⚡⚡
+
+Type Coercion (Implicit Conversion) 🛩️🛩️
+✅ Type coercion happens automatically when JavaScript converts types behind the scenes to perform operations.
+
+Common Coercion Examples: 🛩️🛩️
+
+1.✅  String Coercion
+🚩🚩🚩🚩
+let result = "The number is " + 42; 
+// Number 42 is coerced to string "42"
+console.log(result); // "The number is 42"
+⚡⚡⚡⚡
+
+2.✅  Numeric Coercion
+🚩🚩🚩🚩
+let result = "10" - 5; 
+// String "10" is coerced to number 10
+console.log(result); // 5
+⚡⚡⚡⚡
+
+3.✅  Boolean Coercion (in logical contexts)
+🚩🚩🚩🚩
+if ("hello") { 
+    // String "hello" is coerced to true
+    console.log("This will run");
+}
+⚡⚡⚡⚡
+
+4.✅  Loose Equality (==) Coercion
+🚩🚩🚩🚩
+console.log(10 == "10"); // true
+// Number 10 and string "10" are coerced to same type
+⚡⚡⚡⚡
+
+✅ Key Differences:
+- Type Conversion: Developer explicitly converts types using functions like `String()`, `Number()`, etc.
+- Type Coercion: JavaScript engine automatically converts types when needed for operations.
+
+✅ Best Practices:
+1. Use explicit conversion (`Number()`, `String()`) for clarity
+2. Prefer strict equality (`===`) over loose equality (`==`) to avoid unintended coercion
+3. Be aware of coercion rules to avoid unexpected behavior
+
+✅ Understanding both concepts is crucial for writing predictable JavaScript code.
