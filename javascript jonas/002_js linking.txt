@@ -1,0 +1,80 @@
+Linking JavaScript to HTML 🛩️🛩️
+
+✅ There are several ways to link JavaScript to HTML documents. Here are the most common methods:
+
+1.✅  External JavaScript File (Recommended)
+
+🚩🚩🚩🚩
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+    <!-- Best practice: place before closing </body> tag -->
+</head>
+<body>
+    <!-- HTML content here -->
+    
+    <!-- Link to external JS file -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+⚡⚡⚡⚡
+
+2.✅  Inline JavaScript
+
+🚩🚩🚩🚩
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <!-- HTML content here -->
+    
+    <script>
+        // JavaScript code directly in HTML
+        console.log("Inline JavaScript");
+    </script>
+</body>
+</html>
+⚡⚡⚡⚡
+
+3.✅  JavaScript in HTML Attributes (Not Recommended)
+
+🚩🚩🚩🚩
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <button onclick="alert('Button clicked!')">Click Me</button>
+</body>
+</html>
+⚡⚡⚡⚡
+
+✅ Best Practices
+
+1. Place scripts before closing `</body>` tag (unless you need them to load earlier)
+2. Use external files for better maintainability and caching
+3. Use `async` or `defer` attributes when loading in `<head>`
+
+🚩🚩🚩🚩
+<head>
+    <!-- Load without blocking rendering -->
+    <script src="script.js" defer></script>
+    
+    <!-- Load asynchronously -->
+    <script src="script.js" async></script>
+</head>
+⚡⚡⚡⚡
+
+✅ Module System (ES6 Modules)
+
+🚩🚩🚩🚩
+<script type="module" src="main.js"></script>
+⚡⚡⚡⚡
+
+✅ This allows you to use `import` and `export` statements in your JavaScript files.
+
+✅ Would you like more details on any of these methods?
