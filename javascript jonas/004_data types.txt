@@ -1,0 +1,65 @@
+In JavaScript, data types can be categorized into primitive and non-primitive (reference) types. Here's a complete list:
+
+1. Primitive Data Types (Immutable) 🛩️🛩️
+These are the basic data types that hold a single value and are passed by value.
+
+1. ✅ `number` – Represents both integer and floating-point numbers.  
+   Example: `42`, `3.14`, `NaN`, `Infinity`
+
+2. ✅ `string` – Represents textual data (enclosed in `''`, `""`, or ``` `` ```).  
+   Example: `"hello"`, `'world'`, `` `template` ``
+
+3. ✅ `boolean` – Represents a logical value (`true` or `false`).  
+   Example: `true`, `false`
+
+4. ✅ `undefined` – Represents a variable that has been declared but not assigned a value.  
+   Example: `let x;` → `x` is `undefined`
+
+5. ✅ `null` – Represents an intentional absence of any value.  
+   Example: `let x = null;`
+
+6. ✅ `bigint` (ES2020) – Represents integers larger than `2^53 - 1`.  
+   Example: `123n`, `BigInt(9007199254740991)`
+
+7. ✅ `symbol` (ES6) – Represents a unique and immutable value, often used as object property keys.  
+   Example: `Symbol('unique')`
+
+2. Non-Primitive Data Types (Mutable, Reference Types) 🛩️🛩️
+These are objects and can hold multiple values. They are passed by reference.
+
+1. ✅ `object` – A collection of key-value pairs.  
+   Example: `{ name: "Alice", age: 25 }`
+
+   - `Array` – An ordered list of values.  
+     Example: `[1, 2, 3]`
+   - `Function` – A callable object.  
+     Example: `function foo() {}`
+   - `Date` – Represents date and time.  
+     Example: `new Date()`
+   - `RegExp` – Represents a regular expression.  
+     Example: `/\d+/g`
+   - `Map`, `Set`, `WeakMap`, `WeakSet` (ES6+) – Specialized collections.
+
+2. ✅ `function` (technically a subtype of `object`) – Callable objects.  
+   Example: `function greet() { return "Hello"; }`
+
+Special Cases
+- ✅ `NaN` (Not a Number) – A special number representing an invalid number.  
+  Example: `0 / 0` → `NaN`
+- ✅ `Infinity` – Represents mathematical infinity.  
+  Example: `1 / 0` → `Infinity`
+
+✅ Checking Data Types with `typeof` 
+🚩🚩🚩🚩
+typeof 42;          // "number"
+typeof "hello";     // "string"
+typeof true;        // "boolean"
+typeof undefined;   // "undefined"
+typeof null;        // "object" (historical bug)
+typeof {};          // "object"
+typeof [];          // "object"
+typeof function(){};// "function"
+typeof Symbol();    // "symbol"
+typeof 123n;        // "bigint"
+⚡⚡⚡⚡
+
