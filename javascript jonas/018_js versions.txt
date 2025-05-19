@@ -1,0 +1,45 @@
+JavaScript Versions and Releases 🛩️🛩️
+
+✅ JavaScript (officially ECMAScript) has gone through several versions since its creation in 1995.
+✅ Here's an overview of the major releases:
+
+ECMAScript (ES) Versions 🛩️🛩️
+
+1. ES1 (1997) - First official standardization
+2. ES2 (1998) - Minor changes to align with ISO standards
+3. ES3 (1999) - Added regular expressions, try/catch, and other features
+4. ES4 (Abandoned) - Never released due to disagreements
+5. ES5 (2009) - Major update adding strict mode, JSON support, array methods
+6. ES6 / ES2015 - The most significant update with:
+   - Classes
+   - Modules
+   - Arrow functions
+   - Promises
+   - let/const
+   - Template literals
+   - Destructuring
+   - And many more features
+
+Yearly Release Cycle (ES2016+) 🛩️🛩️
+
+✅ Starting with ES2016, ECMAScript adopted a yearly release cycle:
+
+- ES2016 (ES7): Added `Array.prototype.includes` and exponentiation operator (``)
+- ES2017 (ES8): Async/await, `Object.values()`, `Object.entries()`, string padding
+- ES2018 (ES9): Rest/spread properties, asynchronous iteration, `Promise.prototype.finally`
+- ES2019 (ES10): `Array.flat()`, `Array.flatMap()`, `Object.fromEntries()`, optional catch binding
+- ES2020 (ES11): BigInt, dynamic imports, nullish coalescing (`??`), optional chaining (`?.`)
+- ES2021 (ES12): Logical assignment operators (`||=`, `&&=`), `String.prototype.replaceAll()`, numeric separators (`1_000`)
+- ES2022 (ES13): Class fields, private methods/accessors, top-level `await`, `.at()` method for arrays/strings
+- ES2023 (ES14): Array find from last, Hashbang grammar, symbols as WeakMap keys
+- ES2024 (ES15): Currently in proposal stage (expected features include array grouping, `ArrayBuffer.prototype.transfer`, and more)
+
+Browser/Engine Support 🛩️🛩️
+✅ Modern JavaScript engines (V8 in Chrome, SpiderMonkey in Firefox, JavaScriptCore in Safari)
+typically implement new features quickly after they're standardized.
+✅ Tools like Babel are often used to transpile newer syntax to work in older browsers.
+
+Current State 🛩️🛩️
+✅ JavaScript continues to evolve with new proposals going through the TC39 process
+(Stage 0-4 before becoming part of the standard).
+✅ The yearly release cycle ensures a steady stream of improvements while maintaining stability.
