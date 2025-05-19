@@ -1,0 +1,77 @@
+
+`if` Statement 🛩️🛩️
+✅ The `if` statement executes a block of code if a specified condition is true.
+
+✅Syntax:
+🚩🚩🚩🚩
+if (condition) {
+    // code to be executed if condition is true
+}
+⚡⚡⚡⚡
+
+✅Explanation:
+- `condition`: An expression that evaluates to `true` or `false`
+- The code inside the curly braces `{}` runs only when the condition is `true`
+
+✅Example:
+🚩🚩🚩🚩
+let age = 18;
+if (age >= 18) {
+    console.log("You are an adult.");
+}
+⚡⚡⚡⚡
+
+`if-else` Statement 🛩️🛩️
+✅ The `if-else` statement executes one block of code if a condition is true, and another block if it's false.
+
+✅Syntax:
+🚩🚩🚩🚩
+if (condition) {
+    // code to be executed if condition is true
+} else {
+    // code to be executed if condition is false
+}
+⚡⚡⚡⚡
+
+✅Explanation:
+- When the `condition` is `true`, the first block runs
+- When the `condition` is `false`, the `else` block runs
+
+✅Example:
+🚩🚩🚩🚩
+let age = 16;
+if (age >= 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are a minor.");
+}
+⚡⚡⚡⚡
+ 
+Extended Variations 🛩️🛩️
+
+✅`else if` for multiple conditions:
+🚩🚩🚩🚩
+if (condition1) {
+    // code if condition1 is true
+} else if (condition2) {
+    // code if condition2 is true
+} else {
+    // code if all conditions are false
+}
+⚡⚡⚡⚡
+
+✅Example with `else if`:
+🚩🚩🚩🚩
+let score = 85;
+if (score >= 90) {
+    console.log("Grade: A");
+} else if (score >= 80) {
+    console.log("Grade: B");
+} else if (score >= 70) {
+    console.log("Grade: C");
+} else {
+    console.log("Grade: D");
+}
+⚡⚡⚡⚡
+
+✅ These conditional statements are fundamental for controlling program flow in JavaScript.
