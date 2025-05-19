@@ -1,0 +1,58 @@
+Strict Mode in JavaScript 🛩️🛩️
+✅ Strict mode is a feature in JavaScript that makes the language behave more strictly by catching common coding mistakes and preventing the use of potentially problematic features. It was introduced in ECMAScript 5 (ES5).
+
+How to Enable Strict Mode 🛩️🛩️
+✅ You can enable strict mode by adding this directive at the beginning of a script or function:
+🚩🚩🚩🚩
+'use strict';
+⚡⚡⚡⚡```
+
+Why Use Strict Mode? 🛩️🛩️
+✅ Main Purposes:
+1. Catches common coding errors by throwing exceptions
+2. Prevents unsafe actions (like accessing global objects accidentally)
+3. Disables confusing or poorly thought-out features
+4. Makes it easier to write "secure" JavaScript
+
+Key Differences in Strict Mode 🛩️🛩️
+1.✅  Variables must be declared:
+🚩🚩🚩🚩
+   'use strict';
+   x = 10; // Throws ReferenceError: x is not defined
+⚡⚡⚡⚡
+
+2.✅  Prevents deletion of variables, functions, or function parameters:
+🚩🚩🚩🚩
+   'use strict';
+   var x = 10;
+   delete x; // Throws SyntaxError
+⚡⚡⚡⚡
+
+3.✅  Duplicated parameter names are not allowed:
+🚩🚩🚩🚩
+   'use strict';
+   function foo(a, a) { // Throws SyntaxError
+     // ...
+   }
+⚡⚡⚡⚡
+
+4.✅  `this` is undefined in global functions (instead of pointing to window):
+🚩🚩🚩🚩
+   'use strict';
+   function foo() {
+     console.log(this); // undefined (instead of window)
+   }
+   foo();
+⚡⚡⚡⚡
+
+5.✅  Eliminates `with` statement (which can cause confusion and performance issues)
+6.✅  Makes `eval` safer by not introducing new variables into surrounding scope
+7.✅  Prevents octal syntax (like `var x = 0123;` which can be confusing)
+
+When to Use Strict Mode 🛩️🛩️
+- In all new JavaScript projects
+- When you want to write more secure, less error-prone code
+- When you want to prepare for future JavaScript versions (many strict mode behaviors will become standard)
+
+✅ Strict mode helps you write cleaner code and catches potential bugs early in development.
+✅ It's considered a best practice to use it in modern JavaScript development.
