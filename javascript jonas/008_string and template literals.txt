@@ -49,10 +49,10 @@ let taggedResult = tag`The sum is ${a + b}`;
 ⚡⚡⚡⚡
 
 ✅ Explanation:
-- Template literals allow **embedded expressions** using `${expression}` syntax
-- They support **multi-line strings** without needing escape characters like `\n`
-- **Expression interpolation** lets you insert variables and expressions directly into strings
-- **Tagged templates** allow you to parse template literals with a function
+- Template literals allow embedded expressions using `${expression}` syntax
+- They support multi-line strings without needing escape characters like `\n`
+- Expression interpolation lets you insert variables and expressions directly into strings
+- Tagged templates allow you to parse template literals with a function
 - Template literals preserve whitespace and line breaks
 
 ✅ Key Differences from Regular Strings:
