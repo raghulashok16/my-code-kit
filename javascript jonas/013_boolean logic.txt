@@ -1,0 +1,81 @@
+✅ Boolean logic is a fundamental concept in JavaScript (and programming in general) that deals with true/false values and the operations you can perform with them.
+
+Boolean Values 🛩️🛩️
+✅ In JavaScript, there are two primitive boolean values:
+- `true`
+- `false`
+
+Boolean Operators 🛩️🛩️
+✅ JavaScript provides several operators for working with boolean values:
+
+1.✅  Logical Operators
+- AND (`&&`): Returns `true` if both operands are true
+🚩🚩🚩🚩
+  true && true   // true
+  true && false  // false
+⚡⚡⚡⚡
+
+- OR (`||`): Returns `true` if at least one operand is true
+🚩🚩🚩🚩
+  true || false  // true
+  false || false // false
+⚡⚡⚡⚡
+
+- NOT (`!`): Inverts the boolean value
+🚩🚩🚩🚩
+  !true  // false
+  !false // true
+⚡⚡⚡⚡
+
+2.✅  Comparison Operators (return boolean values)
+- Equal (`==`): Loose equality (type coercion)
+🚩🚩🚩🚩
+  5 == '5'  // true
+⚡⚡⚡⚡
+
+- Strict Equal (`===`): Both value and type must match
+🚩🚩🚩🚩
+  5 === '5' // false
+⚡⚡⚡⚡
+
+- Not Equal (`!=`)
+- Strict Not Equal (`!==`)
+- Greater Than (`>`)
+- Less Than (`<`)
+- Greater Than or Equal (`>=`)
+- Less Than or Equal (`<=`)
+
+Truthy and Falsy Values 🛩️🛩️
+✅ In JavaScript, non-boolean values are coerced to booleans in logical contexts:
+
+✅ Falsy values (become `false`):
+- `false`
+- `0`
+- `""` (empty string)
+- `null`
+- `undefined`
+- `NaN`
+
+✅ Truthy values (become `true`):
+- Everything not in the falsy list
+- `"0"`, `"false"` (non-empty strings)
+- `[]` (empty array)
+- `{}` (empty object)
+- Functions
+
+Short-circuit Evaluation 🛩️🛩️
+✅ JavaScript logical operators use short-circuit evaluation:
+- `&&` stops if the first operand is falsy (returns that value)
+- `||` stops if the first operand is truthy (returns that value)
+
+🚩🚩🚩🚩
+0 && "hello"  // returns 0
+"hi" || "hello" // returns "hi"
+⚡⚡⚡⚡
+
+✅ This is often used for conditional execution or default values:
+🚩🚩🚩🚩
+const name = userInput || "Anonymous";
+⚡⚡⚡⚡
+
+✅ Boolean logic is essential for control flow (if statements, loops) and decision making in JavaScript programs.
