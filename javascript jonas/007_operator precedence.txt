@@ -1,0 +1,43 @@
+Here’s the simplified JavaScript Operator Precedence table (highest to lowest) without the fourth column (operators):  
+
+✅ Operator Precedence Table (Highest to Lowest)  
+
+| Precedence | Operator Type                       | Associativity      |
+|------------|------------------------             |--------------------|
+| 21         | Grouping                            | n/a                |
+| 20         | Member Access                       | left-to-right      |
+| 20         | Computed Member Access              | left-to-right      |
+| 20         | `new` (with args)                   | n/a                |
+| 20         | Function Call                       | left-to-right      |
+| 20         | Optional Chaining                   | left-to-right      |
+| 19         | `new` (no args)                     | right-to-left      |
+| 18         | Postfix Increment                   | n/a                |
+| 18         | Postfix Decrement                   | n/a                |
+| 17         | Logical NOT                         | right-to-left      |
+| 17         | Bitwise NOT                         | right-to-left      |
+| 17         | Unary Plus/Negation                 | right-to-left      |
+| 17         | Prefix Increment/Decrement          | right-to-left      |
+| 17         | `typeof`, `void`, `delete`, `await` | right-to-left      |
+| 16         | Exponentiation                      | right-to-left      |
+| 15         | Multiplication/Division/Remainder   | left-to-right      |
+| 14         | Addition/Subtraction                | left-to-right      |
+| 13         | Bitwise Shifts                      | left-to-right      |
+| 12         | Relational/`in`/`instanceof`        | left-to-right      |
+| 11         | Equality/Inequality                 | left-to-right      |
+| 10         | Bitwise AND                         | left-to-right      |
+| 9          | Bitwise XOR                         | left-to-right      |
+| 8          | Bitwise OR                          | left-to-right      |
+| 7          | Logical AND                         | left-to-right      |
+| 6          | Logical OR                          | left-to-right      |
+| 5          | Nullish Coalescing                  | left-to-right      |
+| 4          | Conditional (Ternary)               | right-to-left      |
+| 3          | Assignment                          | right-to-left      |
+| 2          | `yield`, `yield*`                   | right-to-left      |
+| 1          | Comma / Sequence                    | left-to-right      |
+
+✅ Key Takeaways:
+- Highest precedence: Grouping `()`, member access `.`, `[]`, function calls `()`, `new` (with args).  
+- Lowest precedence: Comma operator `,`.  
+- Right-associative: Exponentiation (``), ternary (`? :`), assignment (`=`, `+=`, etc.).  
+- Logical OR (`||`) has lower precedence than Logical AND (`&&`).  
+- Nullish coalescing (`??`) has higher precedence than `||` and `&&`.  
