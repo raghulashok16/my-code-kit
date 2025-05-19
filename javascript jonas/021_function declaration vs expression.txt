@@ -7,14 +7,14 @@
 - Has its own scope (`this`, `arguments`, `super`, `new.target`).
 
 
-Syntax: 🛩️🛩️
+✅ Syntax: 
 🚩🚩🚩🚩
 function greet() {
   console.log("Hello!");
 }
 ⚡⚡⚡⚡
 
-Example: 🛩️🛩️
+✅ Example: 
 🚩🚩🚩🚩
 greet(); // Works due to hoisting
 
@@ -29,14 +29,14 @@ function greet() {
 - Can be anonymous (unnamed) or named.
 - Often used in callbacks, IIFEs, and closures.
 
-Syntax: 🛩️🛩️
+✅ Syntax:
 🚩🚩🚩🚩
 const greet = function() {
   console.log("Hello!");
 };
 ⚡⚡⚡⚡
 
-Example: 🛩️🛩️
+✅ Example:
 🚩🚩🚩🚩
 greet(); // Error: greet is not defined yet (no hoisting)
 
@@ -45,7 +45,7 @@ const greet = function() {
 };
 ⚡⚡⚡⚡
 
-Key Differences: 🛩️🛩️
+✅ Key Differences: 
 | Feature               | Function Declaration | Function Expression    |
 |-----------------------|----------------------|----------------------  |
 | Hoisting              | ✅ Yes               | ❌ No                 | 
@@ -62,9 +62,7 @@ Arrow Functions (Special Case of Function Expression) 🛩️🛩️
 const greet = () => console.log("Hello!");
 ⚡⚡⚡⚡
 
-Summary: 🛩️🛩️
+✅ Summary: 
 - Function Declarations are hoisted and have a name.
 - Function Expressions are not hoisted and can be anonymous.
 - Arrow Functions are a concise form of function expressions (but without their own `this` binding).
-
-Would you like examples of advanced use cases (like IIFEs or closures)? 😊
