@@ -1,0 +1,70 @@
+✅ In JavaScript, functions can be defined in two main ways: function declarations and function expressions.
+✅ Here are the key differences between them:
+
+1. Function Declaration 🛩️🛩️
+- Defined using the `function` keyword followed by a name.
+- Hoisted: Can be called before its definition in the code.
+- Has its own scope (`this`, `arguments`, `super`, `new.target`).
+
+
+Syntax: 🛩️🛩️
+🚩🚩🚩🚩
+function greet() {
+  console.log("Hello!");
+}
+⚡⚡⚡⚡
+
+Example: 🛩️🛩️
+🚩🚩🚩🚩
+greet(); // Works due to hoisting
+
+function greet() {
+  console.log("Hello!");
+}
+⚡⚡⚡⚡
+
+2. Function Expression 🛩️🛩️
+- Defined by assigning a function to a variable.
+- Not hoisted: Cannot be called before its definition.
+- Can be anonymous (unnamed) or named.
+- Often used in callbacks, IIFEs, and closures.
+
+Syntax: 🛩️🛩️
+🚩🚩🚩🚩
+const greet = function() {
+  console.log("Hello!");
+};
+⚡⚡⚡⚡
+
+Example: 🛩️🛩️
+🚩🚩🚩🚩
+greet(); // Error: greet is not defined yet (no hoisting)
+
+const greet = function() {
+  console.log("Hello!");
+};
+⚡⚡⚡⚡
+
+Key Differences: 🛩️🛩️
+| Feature               | Function Declaration | Function Expression    |
+|-----------------------|----------------------|----------------------  |
+| Hoisting              | ✅ Yes               | ❌ No                 | 
+| Name (identity)       | Has a name           | Can be anonymous       |
+| Usage                 | General functions    | Callbacks, closures    |
+| Assignment            | Not required         | Assigned to a variable |
+
+✅ When to Use Which?
+- Use Function Declarations when you need hoisting or a standalone function.
+- Use Function Expressions when you need to pass a function as an argument (callback) or assign it dynamically.
+
+Arrow Functions (Special Case of Function Expression) 🛩️🛩️
+🚩🚩🚩🚩
+const greet = () => console.log("Hello!");
+⚡⚡⚡⚡
+
+Summary: 🛩️🛩️
+- Function Declarations are hoisted and have a name.
+- Function Expressions are not hoisted and can be anonymous.
+- Arrow Functions are a concise form of function expressions (but without their own `this` binding).
+
+Would you like examples of advanced use cases (like IIFEs or closures)? 😊
