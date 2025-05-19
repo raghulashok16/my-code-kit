@@ -1,0 +1,64 @@
+✅ In JavaScript, statements and expressions are two fundamental concepts that serve different purposes.
+
+1. Expressions 🛩️🛩️
+✅ An expression is a piece of code that produces a value. It can be evaluated to a single value.
+
+
+✅ Examples of Expressions:
+🚩🚩🚩🚩
+5 + 3          // Evaluates to 8
+"Hello"        // Evaluates to "Hello"
+x * 2          // Evaluates to the value of x multiplied by 2
+Math.random()  // Evaluates to a random number
+true && false  // Evaluates to false
+⚡⚡⚡⚡
+
+- Expressions can be used wherever a value is expected (e.g., inside function arguments, variable assignments, etc.).
+- They can be combined to form more complex expressions.
+
+2. Statements 🛩️🛩️
+✅ A statement is a piece of code that performs an action. It does not produce a value on its own but instead controls program flow.
+
+✅ Examples of Statements:
+🚩🚩🚩🚩
+let x = 5;      // Variable declaration (does not return a value)
+if (x > 0) {    // Conditional statement
+  console.log("Positive");
+}
+for (let i = 0; i < 5; i++) {  // Loop statement
+  console.log(i);
+}
+function greet() {  // Function declaration
+  return "Hello";
+}
+⚡⚡⚡⚡
+
+- Statements do not return a value (unlike expressions).
+- They often end with a semicolon (`;`).
+- They control how and when expressions are executed.
+
+✅ Key Differences:
+| Feature          | Expression                        | Statement                             |
+|------------------|-----------------------------------|--------------------------------       |
+| Produces Value   | Yes (e.g., `3 + 4` → `7`)         | No (e.g., `if (x > 0) {...}`)         |
+| Can Be Assigned  | Yes (`let y = 5 + 3;`)            | No (`let z = if (...) {...}` → Error) |
+| Used Inside      | Inside statements (`if (x > 0)`)  | Standalone or in blocks (`{}`)        |
+| Example          | `x++`, `a && b`, `func()`         | `for()`, `while()`, `return`          |
+
+✅ Special Cases:
+- Function Expressions vs Function Declarations:
+  🚩🚩🚩🚩
+  // Function Declaration (Statement)
+  function greet() { return "Hi!"; }
+
+  // Function Expression (Expression)
+  const greet = function() { return "Hi!"; };
+  ⚡⚡⚡⚡
+- Ternary Operator (`? :`) is an Expression:
+  🚩🚩🚩🚩
+  let result = (x > 0) ? "Positive" : "Negative"; // Valid (expression)
+  ⚡⚡⚡⚡
+
+✅ Summary:
+- Use expressions when you need a value (e.g., in calculations, function calls).
+- Use statements when you need to control program flow (e.g., loops, conditionals).
