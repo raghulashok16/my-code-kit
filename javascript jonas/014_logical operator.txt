@@ -1,0 +1,60 @@
+Logical Operators in JavaScript 🛩️🛩️
+✅ Logical operators are used to perform logical operations on Boolean values (true/false) or values that can be interpreted as Boolean (truthy/falsy).
+
+Main Logical Operators in JavaScript: 🛩️🛩️
+1.✅  Logical AND (`&&`):
+   - Returns `true` if both operands are true
+   - Returns the first falsy value or the last truthy value
+
+🚩🚩🚩🚩
+   true && true    // true
+   true && false   // false
+   false && true   // false
+   false && false  // false
+   
+   'Cat' && 'Dog'  // 'Dog' (last truthy value)
+   '' && 'Dog'     // '' (first falsy value)
+⚡⚡⚡⚡
+
+2.✅  Logical OR (`||`):
+   - Returns `true` if at least one operand is true
+   - Returns the first truthy value or the last falsy value
+
+🚩🚩🚩🚩
+   true || true    // true
+   true || false   // true
+   false || true   // true
+   false || false  // false
+   
+   'Cat' || 'Dog'  // 'Cat' (first truthy value)
+   '' || 'Dog'     // 'Dog' (first truthy value)
+   '' || 0         // 0 (last falsy value)
+⚡⚡⚡⚡
+
+3.✅  Logical NOT (`!`):
+   - Returns the inverse Boolean value of its operand
+   - Converts the operand to Boolean first if it's not already
+
+🚩🚩🚩🚩
+   !true      // false
+   !false     // true
+   !0         // true
+   !'Hello'   // false
+⚡⚡⚡⚡
+
+✅ Additional Notes:
+
+- Short-circuit evaluation: JavaScript stops evaluating as soon as the result is determined:
+  - For `&&`, if the first operand is falsy, the second isn't evaluated
+  - For `||`, if the first operand is truthy, the second isn't evaluated
+
+- Nullish Coalescing Operator (`??`) (ES2020):
+  Similar to `||` but only returns the right operand if the left is `null` or `undefined` (not all falsy values)
+
+🚩🚩🚩🚩
+  '' || 'default'    // 'default'
+  '' ?? 'default'    // ''
+  null ?? 'default'  // 'default'
+⚡⚡⚡⚡
+
+✅ Logical operators are commonly used in conditionals, variable assignments, and control flow statements.
