@@ -1,0 +1,63 @@
+Difference Between Function Declaration, Function Expression, and Arrow Function 🛩️🛩️
+
+✅ Here's a comparison of the three main ways to define functions in JavaScript:
+
+1.✅  Function Declaration
+🚩🚩🚩🚩
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+⚡⚡⚡⚡
+
+✅ Characteristics:
+- Hoisted to the top of their scope (can be called before declaration) 🟢
+- Has its own `this` binding
+- Can be named (recommended) or anonymous
+- Creates a variable in the current scope with the function name
+
+2.✅  Function Expression
+🚩🚩🚩🚩
+const greet = function(name) {
+  return `Hello, ${name}!`;
+};
+⚡⚡⚡⚡
+
+✅ Characteristics:
+- Not hoisted (must be defined before calling) 🔴
+- Can be named or anonymous (often anonymous)
+- Has its own `this` binding
+- Often used as callbacks or assigned to variables
+
+3.✅  Arrow Function (ES6+)
+🚩🚩🚩🚩
+const greet = (name) => {
+  return `Hello, ${name}!`;
+};
+// Or shorter:
+const greet = name => `Hello, ${name}!`;
+⚡⚡⚡⚡
+
+✅ Characteristics:
+- Not hoisted 🔴
+- Always anonymous (no function name)
+- No own `this` binding (inherits `this` from surrounding scope)
+- No `arguments` object (use rest parameters instead)
+- Shorter syntax, especially for simple functions
+- Can't be used as constructors (no `new` keyword)
+
+✅ Key Differences Table
+
+| Feature            | Function Declaration | Function Expression | Arrow Function |
+|--------------------|----------------------|---------------------|----------------|
+| Hoisting           | Yes                  | No                  | No             |
+| `this` binding     | Own                  | Own                 | Lexical        |
+| Named functions    | Yes                  | Optional            | No             |
+| As constructor     | Yes                  | Yes                 | No             |
+| `arguments` object | Yes                  | Yes                 | No             |
+| Syntax length      | Longer               | Medium              | Shorter        |
+
+✅ When to Use Each
+
+- Function Declaration: When you need hoisting or a named function for recursion
+- Function Expression: When you need to assign a function to a variable or pass it as a callback
+- Arrow Function: For short callbacks, when you want lexical `this`, or for concise one-liners
