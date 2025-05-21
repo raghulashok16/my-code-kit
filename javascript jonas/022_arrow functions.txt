@@ -1,6 +1,7 @@
 Arrow Functions in JavaScript 🛩️🛩️
 ✅ Arrow functions (also called "fat arrow functions") are a concise syntax
  for writing function expressions in JavaScript, introduced in ES6 (ECMAScript 2015). 
+ 
 ✅ They provide a shorter syntax compared to traditional function expressions
  and have some differences in how they handle the `this` keyword.
 
