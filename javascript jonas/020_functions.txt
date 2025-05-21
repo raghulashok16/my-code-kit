@@ -1,5 +1,6 @@
 Functions in JavaScript 🛩️🛩️
 ✅ A function in JavaScript is a reusable block of code that performs a specific task or calculates a value.
+
 ✅ Functions are fundamental building blocks in JavaScript that allow you to organize your code, avoid repetition, and create more modular programs.
 
 Basic Function Syntax 🛩️🛩️
