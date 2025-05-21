@@ -76,6 +76,7 @@ Key Differences from Regular Functions 🛩️🛩️
 
 4.✅  No prototype property: Arrow functions don't have a `prototype` property.
 
+
 ✅ When to Use Arrow Functions
 - For short, simple functions (especially callbacks)
 - When you want to preserve the lexical `this` binding
