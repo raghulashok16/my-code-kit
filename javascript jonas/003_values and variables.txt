@@ -26,4 +26,4 @@ let message = "Hello, World!";  // 'message' is a variable storing the string va
 ✅ Here:
 - `message` → variable name
 - `"Hello, World!"` → value stored in the variable
-- You can later use `message` to access or modify the stored value.  
+- You can later use `message` to access or modify the stored value. 
