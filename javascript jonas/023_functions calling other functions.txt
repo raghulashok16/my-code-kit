@@ -1,0 +1,115 @@
+Functions Calling Other Functions in JavaScript 🛩️🛩️
+
+✅ In JavaScript, functions can call other functions, which is a fundamental concept for organizing and reusing code.
+✅ This allows you to break down complex tasks into smaller, more manageable pieces.
+
+✅ Basic Example
+
+🚩🚩🚩🚩
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+function welcome(user) {
+  const greeting = greet(user); // Calling greet() from within welcome()
+  return `${greeting} Welcome to our website.`;
+}
+
+console.log(welcome('Alice')); 
+// Output: "Hello, Alice! Welcome to our website."
+⚡⚡⚡⚡
+
+✅ Why Call Functions from Other Functions?
+
+1. Code Reusability: Avoid repeating the same code in multiple places
+2. Modularity: Break complex problems into smaller, focused functions
+3. Readability: Makes code easier to understand and maintain
+4. Testing: Easier to test smaller, focused functions
+
+More Examples 🛩️🛩️
+
+1.✅  Math Operations
+
+🚩🚩🚩🚩
+function square(x) {
+  return x * x;
+}
+
+function sumOfSquares(a, b) {
+  return square(a) + square(b); // Calling square() twice
+}
+
+console.log(sumOfSquares(3, 4)); // 25
+⚡⚡⚡⚡
+
+2.✅  Data Processing
+
+🚩🚩🚩🚩
+function formatName(first, last) {
+  return `${last.toUpperCase()}, ${first.charAt(0).toUpperCase()}${first.slice(1)}`;
+}
+
+function createUserProfile(first, last, age) {
+  const name = formatName(first, last); // Calling formatName()
+  return {
+    name,
+    age,
+    id: generateId() // Calling another function
+  };
+}
+
+function generateId() {
+  return Math.floor(Math.random() * 10000);
+}
+
+console.log(createUserProfile('john', 'doe', 30));
+// Example output: { name: "DOE, John", age: 30, id: 4821 }
+⚡⚡⚡⚡
+
+3.✅  Callback Functions
+
+🚩🚩🚩🚩
+function processArray(arr, processor) {
+  return arr.map(processor); // processor is a function being called
+}
+
+function double(x) {
+  return x * 2;
+}
+
+const numbers = [1, 2, 3];
+console.log(processArray(numbers, double)); // [2, 4, 6]
+⚡⚡⚡⚡
+
+✅ Best Practices
+
+1. Single Responsibility Principle: Each function should do one thing well
+2. Clear Naming: Function names should clearly indicate their purpose
+3. Limit Nesting: Avoid deeply nested function calls that make code hard to follow
+4. Error Handling: Consider how errors should propagate between functions
+
+✅ Advanced Pattern: Helper Functions
+
+🚩🚩🚩🚩
+function calculateTotal(cart) {
+  return applyDiscount(calculateSubtotal(cart));
+
+  // Helper functions
+  function calculateSubtotal(items) {
+    return items.reduce((sum, item) => sum + item.price, 0);
+  }
+  
+  function applyDiscount(amount) {
+    return amount > 100 ? amount * 0.9 : amount;
+  }
+}
+
+const shoppingCart = [
+  { name: 'Shirt', price: 25 },
+  { name: 'Jeans', price: 80 }
+];
+
+console.log(calculateTotal(shoppingCart)); // 94.5 (105 with 10% discount)
+⚡⚡⚡⚡
+
+✅ Functions calling other functions is a powerful pattern that helps you write cleaner, more maintainable JavaScript code.
